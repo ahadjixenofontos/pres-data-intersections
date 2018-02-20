@@ -20,6 +20,17 @@ ahadjixenofontos@miami.edu
 - Implementation
 - Inference and Visualization
 
+---
+
+Failure to predict the election of Donald Trump. 
+People lose faith in the algorithms and the data science that generated the predictions. 
+If we understood 
+
+---
+
+ProPublica story on recidivism algorithms 
+
+
 ---?image=images/bowl.jpg
 
 @title[Context]
@@ -63,6 +74,24 @@ In the implementation phase, you dive in deep with the data, explore it, clean i
 In the inference stage, you build models, evaluate them, create visualizations and communicate the insights
 
 The decisions you make along the way will be informed by the context of your data analysis. Two people can start at exactly the same place in terms of what data and methods are available to them and ask very similar questions, but the sight differences in their objectives will translate to different actions being appropriate at each stage. 
+
+---
+
+TED talk
+Cathy O'Neil
+
+>"To build algorithm you need two things "
+
+>"Algorithms are opinions embedded in code."
+
+---
+
+2012
+Gary Rubinstein analyzed the "value-added algorithm"
+
+
+
+http://garyrubinstein.teachforus.org/2012/02/26/analyzing-released-nyc-value-added-data-part-1/
 
 ---
 
@@ -556,6 +585,31 @@ learning | fitting
 
 Note:
 Although I believe that arguing over whether classical statistics, including regression, is actually machine learning is a waste of time, I have found it useful to draw these parallels in the vocabulary used by these communities. 
+
+---
+
+The solution is to understand the algorithms, to build them mindfully and to communicate their limitations. 
+
+Cathy O'Neil ends her TED talk by suggesting that the good news is that algorithms can be checked for fairness. 
+
+I think that's the view of a mathematician, or someone who has worked in deterministic systems where it is possible to 
+
+But ask any biologist, any psychologist, political scientist, anybody who works with a complex system and 
+
+Even when we check them for fairness, we won't be able to take all the bias out, but by having a solid understanding of their limitations we will be able to know how much weight to put on their insights. 
+
+Genetic tests interpretations vary - https://www.healthista.com/dna-genetic-test-review-three-different-diet-fitness-results/
+
+We must become comfortable with uncertainty. We must be okay not knowing, not because we don't care, but because we understand the depth and the complexity and the nuance of the complex system that we are trying to force into a deterministic box. 
+
+We don't see things as they are, we see them as we are. 
+
+
+---
+
+Policy issues as well. There are profit related reasons to bias algorithms. 
+But it's not so black and white. 
+Are these companies complete evil? When you know that nobody can escape bias, why wouldn't you want to sway bias in a way that suits you? 
 
 ---
 
