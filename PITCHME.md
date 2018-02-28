@@ -21,7 +21,7 @@ Note:
 Prepare video here, starting at minute 2:00. Okay to have sound on, as long as it starts at minute 2:00. 
 http://channel.nationalgeographic.com/wild/videos/chick-chase/
 
-We're about to watch gentoo penguins, and try to interpret their behavior. Here's some context that may be useful. The penguin in the front is a parent, and the penguin in the back is the chick. 
+We're about to watch a video of gentoo penguins. The penguin in the front is a parent, and the penguin in the back is the chick. 
 
 What do you think they’re doing? Write a phrase or a sentence to describe what they're doing on your notepad
 
@@ -46,25 +46,45 @@ we see them as we are.
 <br> <font color="#008080"> - Anais Nin </font>
 
 Note:
-The main part of this talk exploring examples of how this shows up in the various stages of data analysis. 
+The main point we will explore today is how who you are shows up in the various stages of a data analysis, from design to inference. 
 
 ---
 
-@title[3. Hume quote]
+@title[Empiricists]
 
 ... it is impossible for us to **think** <br> of any thing, which we have not antecedently **felt**, either by our external or intenal senses. 
 <br> <font color="#008080"> - David Hume </font>
 
 Note:
-If we are willing to entertain the idea that your interpretations of observations amount to knowledge that you are gathering about how the world works, we need to  acknowledge the philosophers who have studied the theory of knowledge. What we are really asking is "what can I know"? Can I know that the mother is tired of the chick constantly bugging her? Can I know that the mother is trying to determine which chick is hungriest?
+What we are really asking is "what can I know"? Can I know that the mother is tired of the chick constantly bugging her? Can I know that the mother is trying to determine which chick is hungriest? If we are willing to connect your interpretations of observations to knowledge that you are gathering about how the world works, we need to  acknowledge the philosophers who have laid down the foundation that seeps into our treatment of this subject. 
 
- Epistemology is the field of philosophy that asks what I think are some of the most difficult and most fascinating questions. There are a few main schools of thought: the empiricists who insist that the ultimate source of all knowledge is observation, and the rationalists who insist that intellectual intuition of clear and distinct ideas is the ultimate source of all knowledge. 
+Epistemology is the field of philosophy that asks what I think are some of the most difficult and most fascinating questions. There are a few main schools of thought: the empiricists who insist that the ultimate source of all knowledge is observation. Hume was one of them, claiming that the knowledge cannot be gained based on something innate, but that is forms a posteriori, based on your set of experiences. 
 
-My personal favorite, Karl Popper, stands both in neither camp and also somewhere in the middle, believing that both observation and reason have important roles, but perhaps that those roles are somewhat different than both empiricists and rationalists claim they are. 
+---
 
-My perhaps naive view is that intuition is developed through observation, and that scientists, being human beings, cannot escape the biases introduced by the very specific way in which humans perceive the world, process information and reach conclusions. 
+@title[Rationalists]
 
-As we saw with the penguins, having a sharpened intuition by repeated contact with a topic, like the evolutionary biologist, may help us get closer to the truth, if such a thing exists. As soon as you switch environments, or perhaps type of data, the intuition needs to be built up again. 
+Vulcanians don't speculate, I speak from pure logic. If I let go of a hammer on a planet that has positive gravity, I need not see it fall to know that it has in fact fallen. 
+<br> <font color="#008080"> - Mr. Spock </font>
+
+Note:
+The rationalists, on the other camp, if you subscribe to such camp divisions, insist that some knowledge is accessible by intuition alone, and other knowledge can be deduced from intuition, using the rules of logic. 
+
+Spock here expresses an idea that originated with Plato and Pythagoras, that there is an objective reality that can be accessed through logic. 
+The position that you choose to take has implications for your decisions in all stages of data analysis. I am not so much concerned with the truth of who is right, but more concerned with which of these positions serves us best when we work with data. That's the first take away. 
+
+---
+
+@title[Popper]
+
+<img src="images/water-cycle.jpg">
+
+Note:
+I personally don't view intellectual intuition as something innate, but rather as something that is developed through observation. Scientists, being human beings, cannot escape the biases introduced by the very specific way in which humans perceive the world, process information and reach conclusions. 
+
+As we saw with the penguins, having a sharpened intuition by repeated contact with a topic, like the evolutionary biologist, may help us get closer to the truth, if such a thing exists. As soon as you switch environments, or perhaps type of data, the intuition needs to be built up again. Perhaps 
+
+There are lots of layers to the philosophical debate, which I'm not qualified to take apart, so we'll leave this discussion here, the second take away being that the foundations of data science, as a science, have a long and rich history in multiple fields, which is often overlooked because the term "data science" itself is so new. 
 
 ---
 
