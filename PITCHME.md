@@ -14,7 +14,8 @@ ahadjixenofontos@miami.edu
 
 @title[1. Gentoo penguins]
 
-![Gentoo chick chase video](https://www.instagram.com/p/BfY0z66AtIG)
+
+![<img src="images/chick_chase.png">](http://channel.nationalgeographic.com/wild/videos/chick-chase/)
 
 Note:
 We're about to watch gentoo penguins, and try to interpret their behavior. Here's some context that may be useful. The penguin in the front is a parent, and the penguin in the back is the chick. 
@@ -48,8 +49,8 @@ The main part of this talk exploring examples of how this shows up in the variou
 
 @title[3. Hume quote]
 
-> ... it is impossible for us to **think** <br> of any thing, which we have not antecedently **felt**, either by our <br> external or intenal senses. 
-> <br> <font color="#008080"> - David Hume </font>
+... it is impossible for us to **think** <br> of any thing, which we have not antecedently **felt**, either by our <br> external or intenal senses. 
+<br> <font color="#008080"> - David Hume </font>
 
 Note:
 If we are willing to entertain the idea that your interpretations of observations amount to knowledge that you are gathering about how the world works, we need to  acknowledge the philosophers who have studied the theory of knowledge. What we are really asking is "what can I know"? Can I know that the mother is tired of the chick constantly bugging her? Can I know that the mother is trying to determine which chick is hungriest?
