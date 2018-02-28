@@ -34,8 +34,10 @@ Anthropomorphism is one example of seeing things not as they are, but as we are.
 @title[2. Anais Nin]
 
 <img src="images/spotlight.png" height="400">
+<div align="right">
 > We don't see things as they are, we see them as we are. 
-> <br> <font color="#008080">Anais Nin </font>
+> <br> <font color="#008080"> - Anais Nin </font>
+</div>
 
 Note:
 We will spend the remainder of this talk exploring examples of how this shows up in the various stages of data analysis. 
@@ -87,9 +89,9 @@ As Director of Engagement for CCS, I meet a lot of people, most of whom are in s
 
 ---
 
-@title[Learn from the pros]
+@title[6. Learn from the pros]
 
-Venn diagram of what is data science
+<img src="images/venn_diagrams_data_science/Slide1.jpeg" height="600">
 
 Note:
 So who are these people? Who are data scientists, and what can we learn from them about keeping the science in data science?
@@ -100,12 +102,14 @@ I'm not talking about analysts here, there's a big difference between the questi
 
 ---
 
-@title[]
+@title[7. What is data science?]
+<img src="images/venn_diagrams_data_science/Slide2.jpeg" height="600">
 
 ---
 
-@title[Who am I?]
+@title[8. Who am I?]
 
+<img src="images/venn_diagrams_data_science/Slide3.jpeg" height="600">
 
 Note:
 Of course, this view is most definitely biased by my training in both graduate school and postdoctoral positions, as a computational geneticist. This is who I am, my version of data science is at the intersection of statistics, computer science, and genetics. So take it with a grain of salt. 
@@ -114,11 +118,15 @@ Of course, this view is most definitely biased by my training in both graduate s
 
 @title[Stages of data analysis 1]
 
+<img src="images/data-analysis-overview.001.jpeg" height="600">
+
+
 Note:
+For the rest of the talk, we will examine the stages of data analysis, and what it really means to proceed through them as a data scientist.
+
 A big part of keeping the science in data science, is being aware of your biases, your assumptions, the ways in which you've shaped the questions you are asking based on your collection of previous thoughts and experiences, and based on your five human senses and your human reasoning. 
 
-For the rest of the talk, we will examine the stages of data analysis, and what it really means to proceed through them as a data scientist. 
-
+This comes in very early on while you are still designing the way you'd like to answer a question. 
 
 ---
 
@@ -149,6 +157,42 @@ Can you find more positive sentiments on good weather days vs bad weather days?
 Compare books by country based on their average days of subshine per year
 Or a non-fiction or fiction books which were written throughout a year, if we have the info on when the authors started writing and make assumptions about how many words they wrote per day
 
+
+---
+
+> Beware of bugs in the above code; I have only proved it correct, not tried it.
+> Donald Knuth
+
+
+Note:
+These are the words of Donald Knuth, author of The art of computer programming, a legendary book from 1968, communicating the difference between math and buggy reality. 
+
+What gets lost when you abstract away the messy, physical world? You need to be aware. 
+
+The fact that programming languages are much less ambiguous than natural languages makes it even more critical that we code with a conscious awareness of the biases that our code could introduce. 
+
+
+---
+
+@title[CCS Data Scholars]
+
+Note:
+I am very excited that what we've come to call data science is so popular. I am not alone in thinking that this "trend" won't go away. For that reason, last summer we hosted 18 girls through a partnership with a local non-profit organization called Educate Tomorrow, which works with foster care and similarly disadvantaged youth 
+We created a program for them to at the very least expose students to the various facets of data science early on, and at most, hopefully, inspire them to incorporate a data-mindset in the way they view the world around them, and to incorporate programming in their toolset. 
+
+
+---
+
+@title[Projects across disciplines]
+
+Note:
+A key feature of this program is to showcase how data science can be married to almost any other discipline. If you're into literature, as this audience knows all too well, you can open up a whole world of questions that you can ask by picking up the tools. Same if you are into questions that have to do with "where" as represented by spatial data, or images. 
+
+---
+
+@title[Image project]
+
+In our image processing project, the main question we were asking was whether it's better to smile or not to smile in the selfies that you post to social media. 
 
 ---
 
