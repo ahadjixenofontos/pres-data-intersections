@@ -142,7 +142,6 @@ This comes in very early on while you are still designing the way you'd like to 
 
 <img src="images/data-analysis-overview.002.jpeg" height="600">
 
-
 +++
 
 @title[Stages of data analysis 1]
@@ -165,8 +164,50 @@ This comes in very early on while you are still designing the way you'd like to 
 
 @title[Problem definition]
 
+Are you asking the right question?
+
+Note:
+One of the major decisions to make in the design phase is defining the question that you'd like to ask, while taking into account the information that is available. 
+I'll use one of the projects that a PhD student from Modern Languages and Literatures, Elena Bonmati, is currently working on. I'll take you through the thought process, which is a little embarassing because I will be exposing our mistakes, but I think illustrative because if we are to benefit from those mistakes the least we could do is learn from them.
+
+This question: are you asking the right question, is a cheeky one, because to answer it you need to define "right". 
+
++++
+
+@title[Catalyzing collaborations]
+
+In a University with 3,129 faculty members, and 911 additional staff researchers, can we identify pairs or teams to work on collaborative research projects? 
+
+Note:
+That sounds like a nice question right? One that many people would like to know the answer to. There are some things in there that are vague, such as what data can we use to answer this question, and what is an appropriate range of disciplines to consider: should pairings between music researchers and a political scientists be included, or only more conventional pairings that may be more likely to work out, such as marine scientists and computer scientists? Wait a minute, to answer that question we need some kind of measure of the relationships between disciplines! Not all pairings are going to make sense together, particularly in the absence of a problem to which the disciplines will apply themselves. 
+
+I find it useful to actually get my hands on some data that may, at a first glance, be suitable for answering this question. I know that I am incredibly lucky to be able to do this at no real cost, thank you data revolution. In this case, we decided that we would use text from faculty publications that we could access through databases, use that text to infer the researcher's areas of expertise with text clustering and topic modeling, then create network diagrams that may help us visualize existing relationships between disciplines. 
+
+At 
+
 Catalyze collaborations was a problem that was stated through my CCS glasses
 Once we saw things through other people’s eyes (faculty who don’t want to be told to collaborate and other admins) the problem was reframed completely and became diffferent than what we originally thought it was
+Now it is "how does the organizational structure of the university reflect the work that is being done in practice" which is a reflection of me feeling like I don't belong in any one discipline 
+This is something about me that is taking flesh as a project
+
+---
+
+@title[Abstract to concrete]
+
+Translating the abstract to concrete involves a series of decisions. 
+<br>Those decisions are, to a certain extent, arbitrary. 
+
+Note:
+Once your question has been translated to the concrete, does it still reflect the general idea behind the abstract question? Often times the answer to that is no and you need to be able to evaluate both the probability that the answer to that is no, and how it impacts the inference that you can make.
+
+---
+
+Perhaps this is just the way science goes.
+
+Note:
+Were those initial decisions mistakes? Is it possible to have gotten to the point we got to without having gone through the process that got us here? I don't know. This is a larger question that touches on the idea that science is "self-correcting", because this process of refinement doesn't only happen within a study, but between studies. After all, where we break up a project into a publishable piece is also an arbitrary decision. This idea that science is self-correcting invokes commentary on the public perception that scientific studies produce contradictory results, so how do you know what to trust? One study shows that a compound is carcinogenic, the next study shows that it's harmless - as a consumer, what do you believe? Diet studies are notorious, but this phenomenon is not exclusive to them. 
+
+The question "what can I trust?" makes sense in the context of "there is one correct answer that you should be able to find out through one study", because it assumes that there IS something to trust, which is a very elementary view of how science works. In reality, the "answer" that you get is at best only applicable to a very specific set of circumstances, and varying levels of confidence. Data is messy. Working with it requires being comfortable with not knowing things, which is not a space that is comfortable for many people. Perhaps it's okay that it's messy. 
 
 ---
 
@@ -189,6 +230,10 @@ On controls
 Can you find more positive sentiments on good weather days vs bad weather days? 
 Compare books by country based on their average days of subshine per year
 Or a non-fiction or fiction books which were written throughout a year, if we have the info on when the authors started writing and make assumptions about how many words they wrote per day
+
+---
+
+What are the threats to the validity of your results? 
 
 
 ---
