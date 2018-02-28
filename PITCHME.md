@@ -77,14 +77,28 @@ The position that you choose to take has implications for your decisions in all 
 
 @title[Popper]
 
-<img src="images/water-cycle.jpg" height="350">
+<img src="images/water-cycle.jpg" height="340">
 
 Note:
 I personally don't view intellectual intuition as something innate, but rather as something that is developed through observation. Scientists, being human beings, cannot escape the biases introduced by the very specific way in which humans perceive the world, process information and reach conclusions. 
 
-As we saw with the penguins, having a sharpened intuition by repeated contact with a topic, like the evolutionary biologist, may help us get closer to the truth, if such a thing exists. As soon as you switch environments, or perhaps type of data, the intuition needs to be built up again. Perhaps 
+As we saw with the penguins, having a sharpened intuition by repeated contact with a topic, like the evolutionary biologist, may help us get closer to the truth, if such a thing exists. As soon as you switch environments, or perhaps type of data, the intuition needs to be built up again.  
 
-There are lots of layers to the philosophical debate, which I'm not qualified to take apart, so we'll leave this discussion here, the second take away being that the foundations of data science, as a science, have a long and rich history in multiple fields, which is often overlooked because the term "data science" itself is so new. 
+There are lots of layers to the philosophical debate, which I'm not qualified to take apart, so we'll leave this discussion here. 
+
+The second take away is that the foundations of data science, as a science, have a long and rich history in multiple fields, which is often overlooked because the term "data science" itself is so new. 
+
+---
+
+@title[Take aways]
+
+#### Take aways so far
+
+- What are the implications of our philosophical positions for how we carry out data science? 
+- The term data science is new, but that may reflect popularity more than it reflects history.  
+
+Note:
+When I say that who you are shows up in the data analysis decisions that you make, I am referring to your collection of experiences, observations, as well as your interpretations of those observations and any meaning you may have attached to them. 
 
 ---
 
