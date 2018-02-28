@@ -36,10 +36,7 @@ Anthropomorphism is one example of seeing things not as they are, but as we are.
 <img src="images/spotlight.png" height="200">
 
 > We don't see things as they are, we see them as we are. 
-
-<div align="right">
-<br> <font color="#008080"> - Anais Nin </font>
-</div>
+> <br> <font color="#008080"> - Anais Nin </font>
 
 Note:
 We will spend the remainder of this talk exploring examples of how this shows up in the various stages of data analysis. 
