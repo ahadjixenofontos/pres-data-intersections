@@ -33,7 +33,7 @@ Anthropomorphism is one example of seeing things not as they are, but as we are.
 
 @title[2. Anais Nin]
 
-<img src="images/spotlight.png" height="400">
+<img src="images/spotlight.png" height="200">
 
 > We don't see things as they are, we see them as we are. 
 
