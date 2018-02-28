@@ -77,7 +77,7 @@ The position that you choose to take has implications for your decisions in all 
 
 @title[Popper]
 
-<img src="images/water-cycle.jpg" height="200">
+<img src="images/water-cycle.jpg" height="180">
 
 Note:
 I personally don't view intellectual intuition as something innate, but rather as something that is developed through observation. Scientists, being human beings, cannot escape the biases introduced by the very specific way in which humans perceive the world, process information and reach conclusions. 
