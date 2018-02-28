@@ -110,12 +110,12 @@ There is a myriad definitions of data science. This one is my definition. It hig
 
 I'm not talking about analysts here, there's a big difference between the question "how many dolls did we sell this quarter?" and ""
 
----
++++
 
 @title[7. What is data science?]
 <img src="images/venn_diagrams_data_science/Slide2.jpeg">
 
----
++++
 
 @title[8. Who am I?]
 
