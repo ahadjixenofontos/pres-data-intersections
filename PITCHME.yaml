@@ -1,1 +1,2 @@
 theme-override : css/PITCHME.css
+transition : none
