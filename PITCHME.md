@@ -276,7 +276,8 @@ I find it useful to actually get my hands on some data that may, at a first glan
 
 The question is still pretty vague, but it has already transformed, to "What can we learn about interdisciplinary teams in our organization, based on recent publications?", which is a fundamentally different question than where we started. That's okay, I need to be clear that there's nothing wrong with the question evolving, as long as you are acutely aware of the fact that it has evolved. 
 
-At 
+
++++
 
 Catalyze collaborations was a problem that was stated through my CCS glasses
 Once we saw things through other people’s eyes (faculty who don’t want to be told to collaborate and other admins) the problem was reframed completely and became diffferent than what we originally thought it was
