@@ -48,11 +48,13 @@ The main part of this talk exploring examples of how this shows up in the variou
 
 @title[3. Hume quote]
 
-> ... it is impossible for us to **think** <br> of any thing, which we have not antecedently  **felt**, either by our <br> external or intenal senses. 
+> ... it is impossible for us to **think** <br> of any thing, which we have not antecedently **felt**, either by our <br> external or intenal senses. 
 > <br> <font color="#008080"> - David Hume </font>
 
 Note:
-Before we go on, I need to acknowledge, that of course, this is not a new idea, but rather one that is related to the theory of knowledge. Epistemology is the field of philosophy that asks what I think are some of the most difficult and most fascinating questions, such as "what can we actually know?". There are a few main schools of thought: the empiricists who insist that the ultimate source of all knowledge is observation, and the rationalists who insist that intellectual intuition of clear and distinct ideas is the ultimate source of all knowledge. 
+If we are willing to entertain the idea that your interpretations of observations amount to knowledge that you are gathering about how the world works, we need to  acknowledge the philosophers who have studied the theory of knowledge. What we are really asking is "what can I know"? Can I know that the mother is tired of the chick constantly bugging her? Can I know that the mother is trying to determine which chick is hungriest?
+
+ Epistemology is the field of philosophy that asks what I think are some of the most difficult and most fascinating questions. There are a few main schools of thought: the empiricists who insist that the ultimate source of all knowledge is observation, and the rationalists who insist that intellectual intuition of clear and distinct ideas is the ultimate source of all knowledge. 
 
 My personal favorite, Karl Popper, stands both in neither camp and also somewhere in the middle, believing that both observation and reason have important roles, but perhaps that those roles are somewhat different than both empiricists and rationalists claim they are. 
 
@@ -64,7 +66,7 @@ As we saw with the penguins, having a sharpened intuition by repeated contact wi
 
 @title[4. Why is this important?]
 
-
+<img src="images/sexiest_job.png">
 
 Note:
 I do not intend for this to be just another talk on how biased algorithms are cheating you of a good credit score or on avoiding blind faith in data, which of course we should do. 
