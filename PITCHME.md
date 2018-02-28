@@ -89,9 +89,11 @@ I think that I'm observing a tendency of placing a lot of emphasis on the tools:
 
 @title[5. Lots of ways to learn about tools]
 
+### Science is not only about the tools. 
+
 
 Note:
-The emphasis I think can be justified. Learning tools is something that you can do through a MOOC, and through participating in Kaggle competitions. Learning how to problem solve like a scientist, meaning questioning every step that you take and every number that you come up with, is perhaps harder to learn online. 
+It seems unreal that I even feel the need to make this statement, but after thinking about it for a while I think that emphasis on tools can be justified. Learning how to use a tool is something that you can something you can teach yourself through a MOOC, or through participating in Kaggle competitions. Whereas learning how to problem solve like a scientist, meaning questioning every step that you take and every number that you come up with, is perhaps more difficult to learn online. 
 
 As Director of Engagement for CCS, I meet a lot of people, most of whom are in some way related to data science. The only ones I've seen who have both the tools and the science are those who've gone through a PhD, or worked in the R&D department of a company. Either way, we are talking about researchers, not hackers and not software engineers. 
 
@@ -99,10 +101,10 @@ As Director of Engagement for CCS, I meet a lot of people, most of whom are in s
 
 @title[6. Learn from the pros]
 
-<img src="images/venn_diagrams_data_science/Slide1.jpeg" height="600">
+<img src="images/venn_diagrams_data_science/Slide1.jpeg">
 
 Note:
-So who are these people? Who are data scientists, and what can we learn from them about keeping the science in data science?
+So who are these people? Who are data scientists, and can we study them to help us keep the science in data science?
 
 There is a myriad definitions of data science. This one is my definition. It highlights the interdisciplinarity of data science. The field changes depending on the data that you have. 
 
@@ -111,13 +113,13 @@ I'm not talking about analysts here, there's a big difference between the questi
 ---
 
 @title[7. What is data science?]
-<img src="images/venn_diagrams_data_science/Slide2.jpeg" height="600">
+<img src="images/venn_diagrams_data_science/Slide2.jpeg">
 
 ---
 
 @title[8. Who am I?]
 
-<img src="images/venn_diagrams_data_science/Slide3.jpeg" height="600">
+<img src="images/venn_diagrams_data_science/Slide3.jpeg">
 
 Note:
 Of course, this view is most definitely biased by my training in both graduate school and postdoctoral positions, as a computational geneticist. This is who I am, my version of data science is at the intersection of statistics, computer science, and genetics. So take it with a grain of salt. 
