@@ -168,7 +168,7 @@ Are you asking the right question?
 
 Note:
 One of the major decisions to make in the design phase is defining the question that you'd like to ask, while taking into account the information that is available. 
-I'll use one of the projects that a PhD student from Modern Languages and Literatures, Elena Bonmati, is currently working on. I'll take you through the thought process, which is a little embarassing because I will be exposing our mistakes, but I think illustrative because if we are to benefit from those mistakes the least we could do is learn from them.
+I'll use one of the projects that a PhD student from Modern Languages and Literatures, Elena Bonmati, is currently working on. I'll take you through the thought process, which may be a little embarassing because I will be exposing what can be perceived of as mistakes in our thought process, but I think illustrative because if we are to benefit from those mistakes the least we could do is learn from them.
 
 This question: are you asking the right question, is a cheeky one, because to answer it you need to define "right". 
 
@@ -179,7 +179,7 @@ This question: are you asking the right question, is a cheeky one, because to an
 In a University with 3,129 faculty members, and 911 additional staff researchers, can we identify pairs or teams to work on collaborative research projects? 
 
 Note:
-That sounds like a nice question right? One that many people would like to know the answer to. There are some things in there that are vague, such as what data can we use to answer this question, and what is an appropriate range of disciplines to consider: should pairings between music researchers and a political scientists be included, or only more conventional pairings that may be more likely to work out, such as marine scientists and computer scientists? Wait a minute, to answer that question we need some kind of measure of the relationships between disciplines! Not all pairings are going to make sense together, particularly in the absence of a problem to which the disciplines will apply themselves. 
+So here is what we were interested in answering. It sounds like a nice question right? One that many people would like to know the answer to. There are some things in there that are vague, such as what data can we use to answer this question, and what is an appropriate range of disciplines to consider: should pairings between music researchers and a political scientists be included, or only more conventional pairings that may be more likely to work out, such as marine scientists and computer scientists? Wait a minute, to answer that question we need some kind of measure of the relationships between disciplines! Not all pairings are going to make sense together, particularly in the absence of a problem to which the disciplines will apply themselves. 
 
 I find it useful to actually get my hands on some data that may, at a first glance, be suitable for answering this question. I know that I am incredibly lucky to be able to do this at no real cost, thank you data revolution. In this case, we decided that we would use text from faculty publications that we could access through databases, use that text to infer the researcher's areas of expertise with text clustering and topic modeling, then create network diagrams that may help us visualize existing relationships between disciplines. 
 
