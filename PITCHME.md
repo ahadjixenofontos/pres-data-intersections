@@ -130,9 +130,17 @@ Note:
 
 Whether or not these data are suitable for answering specific questions depends on the quality, type of data, how extensively it covers variables that are relevant. Those are separate questions. Those are the questions that have to do with the science part of data science. 
 
-Which brings me to the flip side, if you'll allow me this one binary of positives vs negatives. One negative consequence of the popularity of data science. The fact that data and ways to analyze it is open to absolutely anybody also means that we now have a responsibility to at least try to convey not only what kind of code you need to write to analyze data, but also more abstract but very, very important concepts,
+Which brings me to the flip side, if you'll allow me this one binary of positives vs negatives. One negative consequence of the popularity of data science is that we now have a responsibility to at least try to convey not only the code you need to write to analyze data, but also concepts that are perhaps more abstract but very, very important concepts.
 
-I would dare suggest the observation that the data science training community has a tendency of placing a lot of emphasis on the tools: "you need to learn python, you need to learn how to use specific libraries such as tensorflow, numpy, nltk, and scikit-learn, you need to learn how to use Tableau, and extract-transform-load engines like Alteryx". I think that this emphasis on the tools ends up giving people the false sense of security in their data analyses, while key concepts that have to do with the science part of data science remain in the dark.  
++++
+
+@title[Tools vs science]
+
+
+Are we putting too much emphasis on tools? 
+
+Note:
+I would dare suggest the observation that the data science training community has a tendency of placing a lot of emphasis on the tools: "you need to learn python, you need to learn how to use specific libraries such as tensorflow, numpy, nltk, and scikit-learn, you need to learn how to use Tableau, and extract-transform-load engines like Alteryx". I think that this emphasis on the tools ends up giving people, particularly those who haven't had any previous research training, the false sense of security in their data analyses, while key concepts that have to do with the science part of data science remain in the dark.  
 
 +++
 
@@ -154,9 +162,9 @@ There are also subtler distinctions, data scientists are not software developers
 Note:
 So who are these people? Who are data scientists, and can we study them to help us keep the science in data science?
 
-There is a myriad definitions of data science. This one is my definition. It highlights the interdisciplinarity of data science. The field changes depending on the data that you have. 
+There is a myriad definitions of data science. This one is my definition. It's biased in that it highlights the interdisciplinarity of data science above all else that goes into it. It also reveals data science to be a heterogeneous collection of multiple fields, depending on the data that you have. Another point that flows from this view is that the disciplinary knowledge is essential. 
 
-I'm not talking about analysts here, there's a big difference between the question "how many dolls did we sell this quarter?" and ""
+I think of the ubiquity of tools as analogous to have all the drills, lumber and nails that you need, and the development of the technical skills as analogous to knowing how to put them together to build a house. In this analogy, the disciplinary knowledge perhaps representes an architect and urban planner who can make sure that the thing you are building makes sense. 
 
 +++
 
@@ -170,7 +178,7 @@ I'm not talking about analysts here, there's a big difference between the questi
 <img src="images/venn_diagrams_data_science/Slide3.jpeg">
 
 Note:
-Of course, this view is most definitely biased by my training in both graduate school and postdoctoral positions, as a computational geneticist. This is who I am, my version of data science is at the intersection of statistics, computer science, and genetics. So take it with a grain of salt. 
+My field is statistical genetics, sometimes also called computational genetics. So this view of data science is most definitely biased by my training over lots of years of graduate school and postdocs. This venn diagram reprsents who I am, the specific manifestation of data science is at the intersection of statistics, computer science, and genetics. I'd be curious to hear about how you would describe yourself in this framework.
 
 ---
 
@@ -213,11 +221,13 @@ This comes in very early on while you are still designing the way you'd like to 
 
 @title[Problem definition]
 
+<font color="#008080"> DESIGN PHASE: </font>
+
 Are you asking the right question?
 
 Note:
 One of the major decisions to make in the design phase is defining the question that you'd like to ask, while taking into account the information that is available. 
-I'll use one of the projects that a PhD student from Modern Languages and Literatures, Elena Bonmati, is currently working on. I'll take you through the thought process, which may be a little embarassing because I will be exposing what can be perceived of as mistakes in our thought process, but I think illustrative because if we are to benefit from those mistakes the least we could do is learn from them.
+I'll use one of the projects that a PhD student from Modern Languages and Literatures, Elena Bonmati, is currently working on. I'll briefly describe our thought process, which may be a little embarassing because I will be exposing what can be perceived of as mistakes in our thought process, but I think illustrative because if we are to benefit from those mistakes the least we could do is learn from them.
 
 This question: are you asking the right question, is a cheeky one, because to answer it you need to define "right". 
 
@@ -228,9 +238,43 @@ This question: are you asking the right question, is a cheeky one, because to an
 In a University with 3,129 faculty members, and 911 additional staff researchers, can we identify pairs or teams to work on collaborative research projects? 
 
 Note:
-So here is what we were interested in answering. There's quite a bit of literature by now that suggests that one of the components of innovation is interdisciplinarity. If that's true, this sounds like a nice question right? One that many people would like to know the answer to. There are some things in there that are vague, such as what data can we use to answer this question, and what is an appropriate range of disciplines to consider: should pairings between music researchers and a political scientists be identified, or only more conventional pairings that may be more likely to work out, such as marine scientists and computer scientists? Wait a minute, to answer that question we need some kind of measure of the relationships between disciplines! Not all pairings are going to make sense together, particularly in the absence of a problem to which the disciplines will apply themselves. 
+So here is what we were interested in answering. There's quite a bit of literature by now that suggests that one of the key components of innovation is interdisciplinarity. That is one of the founding principles of the Center for Computational Science, as an interdisciplinary hub for research. If it is indeed true that there is a relationship between innovation and interdiciplinarity, this sounds like a good question to ask, right? One that many people would like to know the answer to. 
 
-I find it useful to actually get my hands on some data that may, at a first glance, be suitable for answering this question. I know that I am incredibly lucky to be able to do this at no real cost, thank you data revolution. In this case, we decided that we would use text from faculty publications that we could access through databases, use that text to infer the researcher's areas of expertise with text clustering and topic modeling, then create network diagrams that may help us visualize existing relationships between researchers from different disciplines. 
+Please take a minute and come up with as many weaknesses in this question as you can find.
+
++++
+
+@title[Caveats]
+
+But what about...
+- available data
+- distance between disciplines
+- relevance of pairing to an actual problem 
+- etc.
+
+Note:
+There are some things in there that are vague, such as what data can we use to answer this question, and what is an appropriate range of disciplines to consider: should pairings between music researchers and a political scientists be identified, or only more conventional pairings that may be more likely to work out, such as marine scientists and computer scientists? Wait a minute, to answer that question we need some kind of measure of the relationships between disciplines! Not all pairings are going to make sense together, particularly in the absence of a problem to which the disciplines will apply themselves. 
+
++++
+
+@title[Project flowchart]
+
+text of recent faculty publications
+<br>
+|
+v
+<br>
+areas of expertise in tools and domains
+<br>
+|
+v 
+<br>
+relationships between disciplines
+
+Note:
+I find it useful to actually get my hands on some data that may, at a first glance, be suitable for answering this question. I know that I am incredibly lucky to be able to do this at no real cost, thank you data revolution. In this case, we decided that we would use text from recent faculty publications that we could access through the programmatic interfaces to various databases, use that text to infer the researcher's areas of expertise with text clustering and topic modeling, then create network diagrams that may help us visualize existing relationships between researchers from different disciplines. 
+
+The question is still pretty vague, but it has already transformed, to "What can we learn about interdisciplinary teams in our organization, based on recent publications?", which is a fundamentally different question than where we started. That's okay, I need to be clear that there's nothing wrong with the question evolving, as long as you are acutely aware of the fact that it has evolved. 
 
 At 
 
