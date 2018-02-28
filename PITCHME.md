@@ -43,7 +43,7 @@ Anthropomorphism is one example of seeing things not as they are, but as we are.
 
 We don't see things as they are, <br> 
 we see them as we are. 
-<br> <font color="#008080"> - Anais Nin </font>
+<br> <br> <font color="#008080"> - Anais Nin </font>
 
 Note:
 The main point we will explore today is how who you are shows up in the various stages of a data analysis, from design to inference. 
@@ -53,7 +53,7 @@ The main point we will explore today is how who you are shows up in the various 
 @title[Empiricists]
 
 ... it is impossible for us to **think** <br> of any thing, which we have not antecedently **felt**, either by our external or intenal senses. 
-<br> <font color="#008080"> - David Hume </font>
+<br> <br> <font color="#008080"> - David Hume </font>
 
 Note:
 What we are really asking is "what can I know"? Can I know that the mother is tired of the chick constantly bugging her? Can I know that the mother is trying to determine which chick is hungriest? If we are willing to connect your interpretations of observations to knowledge that you are gathering about how the world works, we need to  acknowledge the philosophers who have laid down the foundation that seeps into our treatment of this subject. 
@@ -92,10 +92,11 @@ The second take away is that the foundations of data science, as a science, have
 
 @title[Take aways]
 
-<font color="#008080">### Take aways so far </font>
+###  <font color="#008080">Take aways so far </font>
 
-- What are the implications of our philosophical positions for how we carry out data science? 
 <br>
+- What are the implications of our philosophical positions for how we carry out data science? 
+<br> <br>
 - The term data science is new, but that may reflect popularity more than it reflects history.  
 
 Note:
@@ -114,7 +115,7 @@ The context in which data science operates has changed now that its popularity h
 
 @title[Positive impact]
 
-There are currently **130,838** packages on PyPI, the Python Package Index. 
+There are currently **130,838** packages on PyPI, <br>the Python Package Index. 
 
 Note:
 One positive consequence is that data is accessible to absolutely anybody, there are lots of open data, lots of online courses for teaching yourself programming and statistics, two of the most basic tools of data analysis. The costs associated with computing have dropped, as the infrastructure gets better. Lots of open source libraries have been developed that implement algorithms that used to be inaccessible. A few years ago, what I thought was clearly the best choice for making publication quality figures was ggplot2, an R package, but now I can no longer say that as a plethora of graphing packages have become available for lots of different environments. This is great! The data/technological revolution is upon us. It's cheap, the tools are accessible, and there is a lot of raw material. 
@@ -137,7 +138,7 @@ I would dare suggest the observation that the data science training community ha
 
 @title[The reason for tool emphasis]
 
-### Science is not only about the tools. 
+Science is not only about the tools. 
 
 Note:
 It seems unreal that I even feel the need to make this statement, but after thinking about it for a while I think that emphasis on tools can be justified. Learning how to use a tool is something that you can something you can teach yourself through a MOOC, or through participating in Kaggle competitions. Whereas learning how to problem solve like a scientist, meaning questioning every step that you take and every number that you come up with, is perhaps more difficult to learn online. 
