@@ -19,7 +19,9 @@ ahadjixenofontos@miami.edu
 Note:
 We're about to watch gentoo penguins, and try to interpret their behavior. Here's some context that may be useful. The penguin in the front is a parent, and the penguin in the back is the chick. 
 
-What do you think they’re doing?
+What do you think they’re doing? Write a phrase or a sentence to describe what they're doing on your notepad
+
+Who wants to share? 
 
 Those are colored by your experience of the world. YOUR experience
 If you’re a mom and had a rough morning with the kid you may see it as the mom is running away. 
@@ -35,18 +37,19 @@ Anthropomorphism is one example of seeing things not as they are, but as we are.
 
 <img src="images/spotlight.png" height="300">
 
-We don't see things as they are, we see them as we are. 
+We don't see things as they are, <br> 
+we see them as we are. 
 <br> <font color="#008080"> - Anais Nin </font>
 
 Note:
-We will spend the remainder of this talk exploring examples of how this shows up in the various stages of data analysis. 
+The main part of this talk exploring examples of how this shows up in the various stages of data analysis. 
 
 ---
 
 @title[3. Hume quote]
 
-> ... it is impossible for us to **think** of any thing, which we have not antecedently **felt**, either by our external or intenal senses. 
-> <br> <font color="#008080">- David Hume </font>
+> ... it is impossible for us to **think** <br> of any thing, which we have not antecedently <br> **felt**, either by our external or intenal senses. 
+> <br> <font color="#008080"> - David Hume </font>
 
 Note:
 Before we go on, I need to acknowledge, that of course, this is not a new idea, but rather one that is related to the theory of knowledge. Epistemology is the field of philosophy that asks what I think are some of the most difficult and most fascinating questions, such as "what can we actually know?". There are a few main schools of thought: the empiricists who insist that the ultimate source of all knowledge is observation, and the rationalists who insist that intellectual intuition of clear and distinct ideas is the ultimate source of all knowledge. 
