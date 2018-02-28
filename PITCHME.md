@@ -91,7 +91,6 @@ I think that I'm observing a tendency of placing a lot of emphasis on the tools:
 
 ### Science is not only about the tools. 
 
-
 Note:
 It seems unreal that I even feel the need to make this statement, but after thinking about it for a while I think that emphasis on tools can be justified. Learning how to use a tool is something that you can something you can teach yourself through a MOOC, or through participating in Kaggle competitions. Whereas learning how to problem solve like a scientist, meaning questioning every step that you take and every number that you come up with, is perhaps more difficult to learn online. 
 
@@ -130,13 +129,37 @@ Of course, this view is most definitely biased by my training in both graduate s
 
 <img src="images/data-analysis-overview.001.jpeg" height="600">
 
-
 Note:
-For the rest of the talk, we will examine the stages of data analysis, and what it really means to proceed through them as a data scientist.
+For the rest of the talk, we will examine the stages of data analysis, and what it really means to proceed through them as a data scientist. Broadly speaking, these are analogous to any other project, so what I'd like to highlight as we go through are the opportunities 
 
 A big part of keeping the science in data science, is being aware of your biases, your assumptions, the ways in which you've shaped the questions you are asking based on your collection of previous thoughts and experiences, and based on your five human senses and your human reasoning. 
 
 This comes in very early on while you are still designing the way you'd like to answer a question. 
+
++++
+
+@title[Stages of data analysis 1]
+
+<img src="images/data-analysis-overview.002.jpeg" height="600">
+
+
++++
+
+@title[Stages of data analysis 1]
+
+<img src="images/data-analysis-overview.003.jpeg" height="600">
+
++++
+
+@title[Stages of data analysis 1]
+
+<img src="images/data-analysis-overview.004.jpeg" height="600">
+
++++
+
+@title[Stages of data analysis 1]
+
+<img src="images/data-analysis-overview.005.jpeg" height="600">
 
 ---
 
