@@ -15,9 +15,12 @@ ahadjixenofontos@miami.edu
 @title[1. Gentoo penguins]
 
 
-![<img src="images/chick_chase.png">](http://channel.nationalgeographic.com/wild/videos/chick-chase/)
+<img src="images/chick_chase.png">
 
 Note:
+Prepare video here, starting at minute 2:00. Okay to have sound on, as long as it starts at minute 2:00. 
+http://channel.nationalgeographic.com/wild/videos/chick-chase/
+
 We're about to watch gentoo penguins, and try to interpret their behavior. Here's some context that may be useful. The penguin in the front is a parent, and the penguin in the back is the chick. 
 
 What do you think they’re doing? Write a phrase or a sentence to describe what they're doing on your notepad
@@ -49,7 +52,7 @@ The main part of this talk exploring examples of how this shows up in the variou
 
 @title[3. Hume quote]
 
-... it is impossible for us to **think** <br> of any thing, which we have not antecedently **felt**, either by our <br> external or intenal senses. 
+... it is impossible for us to **think** <br> of any thing, which we have not antecedently **felt**, either by our external or intenal senses. 
 <br> <font color="#008080"> - David Hume </font>
 
 Note:
