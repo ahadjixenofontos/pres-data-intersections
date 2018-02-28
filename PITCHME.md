@@ -48,7 +48,7 @@ The main part of this talk exploring examples of how this shows up in the variou
 
 @title[3. Hume quote]
 
-> ... it is impossible for us to **think** <br> of any thing, which we have not antecedently <br> **felt**, either by our external or intenal senses. 
+> ... it is impossible for us to **think** <br> of any thing, which we have not antecedently  **felt**, either by our <br> external or intenal senses. 
 > <br> <font color="#008080"> - David Hume </font>
 
 Note:
