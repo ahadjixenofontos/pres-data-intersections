@@ -12,7 +12,7 @@ ahadjixenofontos@miami.edu
 
 ---
 
-@title[1. Gentoo penguins]
+@title[Gentoo penguins]
 
 
 <img src="images/chick_chase.png">
@@ -37,7 +37,7 @@ Anthropomorphism is one example of seeing things not as they are, but as we are.
 
 ---
 
-@title[2. Anais Nin]
+@title[Anais Nin]
 
 <img src="images/spotlight.png" height="300">
 
@@ -48,7 +48,7 @@ we see them as we are.
 Note:
 The main point we will explore today is how who you are shows up in the various stages of a data analysis, from design to inference. 
 
----
++++
 
 @title[Empiricists]
 
@@ -60,11 +60,11 @@ What we are really asking is "what can I know"? Can I know that the mother is ti
 
 Epistemology is the field of philosophy that asks what I think are some of the most difficult and most fascinating questions. There are a few main schools of thought: the empiricists who insist that the ultimate source of all knowledge is observation. Hume was one of them, claiming that the knowledge cannot be gained based on something innate, but that is forms a posteriori, based on your set of experiences. 
 
----
++++
 
 @title[Rationalists]
 
-Vulcanians don't speculate, I speak from pure logic. If I let go of a hammer on a planet that has positive gravity, I need not see it fall to know that it has in fact fallen. 
+Vulcanians don't speculate, I speak from pure logic. <br>If I let go of a hammer on a planet that has <br> positive gravity, I need not see it fall <br>to know that it has in fact fallen. <br>
 <br> <font color="#008080"> - Mr. Spock </font>
 
 Note:
@@ -73,9 +73,9 @@ The rationalists, on the other camp, if you subscribe to such camp divisions, in
 Spock here expresses an idea that originated with Plato and Pythagoras, that there is an objective reality that can be accessed through logic. 
 The position that you choose to take has implications for your decisions in all stages of data analysis. I am not so much concerned with the truth of who is right, but more concerned with which of these positions serves us best when we work with data. That's the first take away. 
 
----
++++
 
-@title[Popper]
+@title[Water cycle]
 
 <img src="images/water-cycle.jpg" height="340">
 
@@ -88,13 +88,14 @@ There are lots of layers to the philosophical debate, which I'm not qualified to
 
 The second take away is that the foundations of data science, as a science, have a long and rich history in multiple fields, which is often overlooked because the term "data science" itself is so new. 
 
----
++++
 
 @title[Take aways]
 
-#### Take aways so far
+<font color="#008080">### Take aways so far </font>
 
 - What are the implications of our philosophical positions for how we carry out data science? 
+<br>
 - The term data science is new, but that may reflect popularity more than it reflects history.  
 
 Note:
@@ -102,37 +103,50 @@ When I say that who you are shows up in the data analysis decisions that you mak
 
 ---
 
-@title[4. Why is this important?]
+@title[The dangers of popularity]
 
 <img src="images/sexiest_job.png">
 
 Note:
-I do not intend for this to be just another talk on how biased algorithms are cheating you of a good credit score or on avoiding blind faith in data, which of course we should do. 
+The context in which data science operates has changed now that its popularity has sky rocketed. In 2012, Davenport declared data scientist to be the sexiest job of the 21st century, a fact that has some positive and some negative consequences. 
 
-But I think the context is important. The popularity of a field which we now call data science has sky rocketed. "Data scientist is the sexiest job of the 21st century" which has some positive and some negative consequences. 
++++
 
-The positive consequences is that data is accessible to absolutely anybody, lots of open data, lots of online courses to learn programming, one of the most basic tools of data analysis. Lots of open source libraries have been developed that implement algorithms that used to be inaccessible. This is great! The data revolution is upon us. 
+@title[Positive impact]
 
-Whether or not you can answer specific questions you care about with the quality and type of data that is available is a separate question. 
+There are currently **130,838** packages on PyPI, the Python Package Index. 
 
-On the flip side, the fact that data and ways to analyze it is open to absolutely anybody also means that we now have a responsibility to at least try to convey not only what kind of code you need to write to analyze data, but also more abstract but very, very important concepts,
+Note:
+One positive consequence is that data is accessible to absolutely anybody, there are lots of open data, lots of online courses for teaching yourself programming and statistics, two of the most basic tools of data analysis. The costs associated with computing have dropped, as the infrastructure gets better. Lots of open source libraries have been developed that implement algorithms that used to be inaccessible. A few years ago, what I thought was clearly the best choice for making publication quality figures was ggplot2, an R package, but now I can no longer say that as a plethora of graphing packages have become available for lots of different environments. This is great! The data/technological revolution is upon us. It's cheap, the tools are accessible, and there is a lot of raw material. 
 
-I think that I'm observing a tendency of placing a lot of emphasis on the tools: "you need to learn python, you need to learn how to use specific libraries such as tensorflow, numpy, nltk, and scikit-learn". I think that this emphasis on the tools ends up giving people the false sense of security in their data analyses, while key concepts that have to do with the science part of data science remain in the dark.  
++++
 
----
+@title[Negative impact]
 
-@title[5. Lots of ways to learn about tools]
+Which questions can the data answer? 
+
+Note:
+
+Whether or not these data are suitable for answering specific questions depends on the quality, type of data, how extensively it covers variables that are relevant. Those are separate questions. Those are the questions that have to do with the science part of data science. 
+
+Which brings me to the flip side, if you'll allow me this one binary of positives vs negatives. One negative consequence of the popularity of data science. The fact that data and ways to analyze it is open to absolutely anybody also means that we now have a responsibility to at least try to convey not only what kind of code you need to write to analyze data, but also more abstract but very, very important concepts,
+
+I would dare suggest the observation that the data science training community has a tendency of placing a lot of emphasis on the tools: "you need to learn python, you need to learn how to use specific libraries such as tensorflow, numpy, nltk, and scikit-learn, you need to learn how to use Tableau, and extract-transform-load engines like Alteryx". I think that this emphasis on the tools ends up giving people the false sense of security in their data analyses, while key concepts that have to do with the science part of data science remain in the dark.  
+
++++
+
+@title[The reason for tool emphasis]
 
 ### Science is not only about the tools. 
 
 Note:
 It seems unreal that I even feel the need to make this statement, but after thinking about it for a while I think that emphasis on tools can be justified. Learning how to use a tool is something that you can something you can teach yourself through a MOOC, or through participating in Kaggle competitions. Whereas learning how to problem solve like a scientist, meaning questioning every step that you take and every number that you come up with, is perhaps more difficult to learn online. 
 
-As Director of Engagement for CCS, I meet a lot of people, most of whom are in some way related to data science. The only ones I've seen who have both the tools and the science are those who've gone through a PhD, or worked in the R&D department of a company. Either way, we are talking about researchers, not hackers and not software engineers. 
+There are also subtler distinctions, data scientists are not software developers and they are not analysts, even though they use similar tools. I won't go into a point by point comparison, but if you're interested we can talk about this later. 
 
 ---
 
-@title[6. Learn from the pros]
+@title[Learn from the pros]
 
 <img src="images/venn_diagrams_data_science/Slide1.jpeg">
 
@@ -145,12 +159,12 @@ I'm not talking about analysts here, there's a big difference between the questi
 
 +++
 
-@title[7. What is data science?]
+@title[What is data science?]
 <img src="images/venn_diagrams_data_science/Slide2.jpeg">
 
 +++
 
-@title[8. Who am I?]
+@title[Who am I?]
 
 <img src="images/venn_diagrams_data_science/Slide3.jpeg">
 
