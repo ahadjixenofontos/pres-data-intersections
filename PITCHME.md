@@ -332,8 +332,8 @@ What are the threats to the validity of your results?
 
 ---
 
-> Beware of bugs in the above code; I have only proved it correct, not tried it.
-> Donald Knuth
+Beware of bugs in the above code; I have only proved it correct, not tried it.
+<br> <font color="#008080"> -  Donald Knuth </font>
 
 
 Note:
@@ -351,6 +351,8 @@ The fact that programming languages are much less ambiguous than natural languag
 Note:
 I am very excited that what we've come to call data science is so popular. I am not alone in thinking that this "trend" won't go away. For that reason, last summer we hosted 18 girls through a partnership with a local non-profit organization called Educate Tomorrow, which works with foster care and similarly disadvantaged youth 
 We created a program for them to at the very least expose students to the various facets of data science early on, and at most, hopefully, inspire them to incorporate a data-mindset in the way they view the world around them, and to incorporate programming in their toolset. 
+
+
 
 
 ---
