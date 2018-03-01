@@ -27,14 +27,15 @@ As we're watching, please think of a phrase or a sentence to describe what they'
 
 Okay, so who described what these penguins are doing as a fed up parent running away from the constant demands of the chicks?
 Who described this as learning through play? Perhaps the parent is teaching the chicks how to get away from a predator?
+Who simply said that they're running, giving no reason why they're running at all?
 
 I would suggest, that these interpretations of penguin behavior may be colored by your experience of the world. 
 If you’re a mom and had a rough morning with the kid you may attach the first interpretation to this behavior. 
-If you are a student you may see it differently.
+If you are a student you may see it differently. If in the past you've been burned by jumping to conclusions, then you choose to attach no meaning to the behavior.  
 If you are an evolutionary biologist you may see it as the mom making sure that only the fittest offspring get fed. 
 All you actually see is penguins running.
 
----
++++
 
 @title[Anais Nin]
 
@@ -51,6 +52,12 @@ I'm defining "who you are" for the purposes of this conversation as the set of e
 
 In the context of data science, extending inference beyond where it's due, adding meaning that may or may not be warranted, is something that comes up not only when interpreting the observations, but as we'll see, in many other places as well. 
 
+---
+
+@title[Philosophy]
+
+<font size="40" color="#008080">The philosophy.</font>
+
 +++
 
 @title[Empiricists]
@@ -59,7 +66,7 @@ In the context of data science, extending inference beyond where it's due, addin
 <br> <br> <font color="#008080"> - David Hume </font>
 
 Note:
-It would be an omission to go on without at least acknowledging that "what can I know" is a question asked by many great thinkers. This model of how knowledge is generated, of observations leading to interpretations which generate to knowledge about how the world works, has a long history with many contributors. 
+It would be an omission to go on without at least acknowledging that "what can I know" is a question asked by many great thinkers. The model of how knowledge is generated that we just used, of observations leading to interpretations which generate to knowledge about how the world works, has a long history with many contributors. 
 
 Epistemology is the field of philosophy that asks some of these most difficult and fascinating questions. There are a few main schools of thought: the empiricists  insist that the ultimate source of all knowledge is observation. Hume was one of them, claiming that the knowledge cannot be gained based on something innate, but that is forms a posteriori, based on your set of experiences. It is impossible for us to think of anything, which we have not antecedently felt, either by our external or internal senses. 
 
@@ -71,10 +78,10 @@ Epistemology is the field of philosophy that asks some of these most difficult a
 <br> <font color="#008080"> - Mr. Spock </font>
 
 Note:
-The rationalists, on the other camp, if you subscribe to such camp divisions, insist that some knowledge is accessible by intuition alone, and other knowledge can be deduced from intuition, using the rules of logic. 
+The rationalists, on the other camp, if you subscribe to categorical camp divisions, insist that some knowledge is accessible by intuition alone, and other knowledge can be deduced from intuition, using the rules of logic. 
 
 Spock here expresses an idea that originated with Plato and Pythagoras, that there is an objective reality that can be accessed through logic. 
-The position that you choose to take has implications for your decisions in all stages of data analysis. I am not so much concerned with the truth of who is right, but more concerned with which of these positions serves us best when we work with data. 
+Whichever camp you align with, your position has implications for your decisions in all stages of data analysis. I am not so much concerned with the truth of who is right, but more concerned with which of these positions serves us best when we work with data. 
 
 +++
 
@@ -83,7 +90,7 @@ The position that you choose to take has implications for your decisions in all 
 <img src="images/water-cycle.jpg" height="340">
 
 Note:
-My personal views fit in the empiricism camp more than the rationalist camp. I view intuition and observation as part of the same system. This is a diagram of the water cycle, in which the rain represents knowledge, the vapor represents intuition, and all the drainage systems represent past experiences. I'm not convinced that anyone who is a human being can escape the influence of their past experiences, their limited instrumentation of just five senses, which have shaped their intuition and world view. 
+So in the interest of full disclosure, my personal views fit in the empiricism camp more than the rationalist camp. I view intuition and observation as part of the same system. This is a diagram of the water cycle, in which the rain represents knowledge, the vapor represents intuition, and all the drainage systems represent past experiences. I'm not convinced that anyone who is a human being can escape the influence of their past experiences, their limited instrumentation of just five senses, which have shaped their intuition and world view. 
 
 Perhaps the more storms you have experienced, the more accurate and well calibrated your system of logic and rational thought will be. In our penguin example, the evolutionary biologist has a perhaps sharper intuition than a student, and perhaps this can get them closer to the truth, if such a thing exists. As soon as you switch environments, or perhaps type of data, the intuition needs to be built up again.  
 
@@ -99,11 +106,17 @@ Perhaps the more storms you have experienced, the more accurate and well calibra
 - There is a rich literature that contextualizes how we do (data) science 
 
 Note:
-Again, whichever philosophy you subscribe to, the important thing is to be aware of how your positions, the results of your collection of experiences, influence your work. 
+Again, whichever philosophy you subscribe to, the important thing is to be aware of what your positions are, to be aware of how the results of your collection of experiences, influence your work. 
 
-The second main point of this section is to not forget about the work of the great thinkers who have influenced how we do science. The term "data science" may be new but its foundations run deep. 
+The second main point of this section is to not forget about the work of the great thinkers who have influenced how we do science. The term "data science" may be trendy but its foundations run deep. 
 
 ---
+
+@title[The hype]
+
+<font size="40" color="#008080">The hype.</font>
+
++++
 
 @title[Term origins]
 
@@ -122,6 +135,8 @@ Note:
 In it's latest incarnation, the term was used by DJ Patil and Jeff Hammerbacher, who worked at LinkedIN and Facebook respectively, in roles that had to do with creating advertising revenue. 
 
 It was the perfect storm. Companies were catching on to the idea that they could make more of their decisions based on data rather than intuition, the technology was in place, the data was available, and the hype was born. 
+
+Data scientist became the sexiest job of the 21st century. 
 
 The hype around data science is has some positive and some negative consequences, if you'll allow me this binary. 
 
