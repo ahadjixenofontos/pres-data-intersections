@@ -107,10 +107,10 @@ The second main point of this section is to not forget about the work of the gre
 
 @title[Term origins]
 
-The term "data scientist" was coined in 2008, by DJ Patil and Jeff Hammerbacher. 
+The term "data science" was coined in 1960, by Peter Naur, to refer to the application of data processing methods. 
 
 Note:
-So let's go a little deeper into this data science phenomenon. 
+So let's go a little deeper into this data science phenomenon. In 1960, Peter Naur, a computer scientist, used it in a book that he wrote called Concise Survey of Computer Methods. It has since then taken on new meaning, picking up statistics on the way, though the work of Jeff Wu at the University of Michigan, who advocated for statistics to be renamed data science in the late nineties. 
 
 +++
 
@@ -119,6 +119,10 @@ So let's go a little deeper into this data science phenomenon.
 <img src="images/sexiest_job.png">
 
 Note:
+In it's latest incarnation, the term was used by DJ Patil and Jeff Hammerbacher, who worked at LinkedIN and Facebook respectively, in roles that had to do with creating advertising revenue. 
+
+It was the perfect storm. Companies were catching on to the idea that they could make more of their decisions based on data rather than intuition, the technology was in place, the data was available, and the hype was born. 
+
 The hype around data science is has some positive and some negative consequences, if you'll allow me this binary. 
 
 +++
@@ -126,7 +130,7 @@ The hype around data science is has some positive and some negative consequences
 @title[Positive impact]
 
 <font color="#008080">Positive: </font> <br>
-There are currently **130,838** packages on PyPI, <br>the Python Package Index. 
+There are currently **130,838** packages on PyPI, <br>the Python Package Index. Anyone can use them. 
 
 Note:
 One positive consequence is that data is accessible to absolutely anybody, there are lots of open data (whether or not they are of good quality is a different question), there are lots of online courses for teaching yourself programming and statistics, two of the most basic tools of data analysis. The costs associated with computing have dropped, as the infrastructure gets better. Lots of open source libraries have been developed that implement algorithms that used to be inaccessible. A few years ago, what I thought was clearly the best choice for making publication quality figures was ggplot2, an R package, but now I can no longer say that as a plethora of graphing packages have become available for lots of different environments. This is great! The data/technological revolution is upon us. It's cheap, the tools are accessible, and there is a lot of raw material. 
@@ -190,6 +194,12 @@ Note:
 My field is statistical genetics, sometimes also called computational genetics. So this view of data science is most definitely biased by my training over lots of years of graduate school and postdocs. This venn diagram reprsents who I am, the specific manifestation of data science is at the intersection of statistics, computer science, and genetics. I'd be curious to hear about how you would describe yourself in this framework, even if you need to switch out statistics and computer science for other disciplines.
 
 ---
+
+@title[ONeil view of process]
+
+<img src="images/data_visualization_process.png">
+
++++
 
 @title[Stages of data analysis]
 
