@@ -123,7 +123,7 @@ The second main point of this section is to not forget about the work of the gre
 The term "data science" was coined in 1960, by Peter Naur, to refer to the application of data processing methods. 
 
 Note:
-So let's go a little deeper into this data science phenomenon. In 1960, Peter Naur, a computer scientist, used it in a book that he wrote called Concise Survey of Computer Methods. It has since then taken on new meaning, picking up statistics on the way, though the work of Jeff Wu at the University of Michigan, who advocated for statistics to be renamed data science in the late nineties. 
+So let's go a little deeper into this data science phenomenon. In 1960, Peter Naur, a computer scientist, used it in a book that he wrote titled Concise Survey of Computer Methods. It has since then taken on new meaning, picking up statistics on the way, though the work of Jeff Wu at the University of Michigan, who advocated for statistics to be renamed data science in the late nineties. 
 
 +++
 
@@ -138,7 +138,7 @@ It was the perfect storm. Companies were catching on to the idea that they could
 
 Data scientist became the sexiest job of the 21st century. 
 
-The hype around data science is has some positive and some negative consequences, if you'll allow me this binary. 
+The hype around data science is has some positive and some negative consequences, if you'll allow me this binary classification of things as good and bad. 
 
 +++
 
@@ -148,17 +148,17 @@ The hype around data science is has some positive and some negative consequences
 There are currently **130,838** packages on PyPI, <br>the Python Package Index. Anyone can use them. 
 
 Note:
-One positive consequence is that data is accessible to absolutely anybody, there are lots of open data (whether or not they are of good quality is a different question), there are lots of online courses for teaching yourself programming and statistics, two of the most basic tools of data analysis. The costs associated with computing have dropped, as the infrastructure gets better. Lots of open source libraries have been developed that implement algorithms that used to be inaccessible. A few years ago, what I thought was clearly the best choice for making publication quality figures was ggplot2, an R package, but now I can no longer say that as a plethora of graphing packages have become available for lots of different environments. This is great! The data/technological revolution is upon us. It's cheap, the tools are accessible, and there is a lot of raw material. 
+One positive consequence is that data is accessible to absolutely anybody, there are lots of open data (whether or not they are of good quality is a different question), there are lots of online courses for teaching yourself programming and statistics, two of the most basic tools of data analysis. The costs associated with computing have dropped, as the infrastructure gets better. Lots of open source libraries have been developed that implement algorithms that used to be inaccessible or at the very least much more difficult to implement yourself. A few years ago, what I thought was clearly the best choice for making publication quality figures was ggplot2, an R package, but now I can no longer say that as a plethora of graphing packages have become available for lots of different environments. This is great! I don't mind losing my heroes if it means that I now have a lot more alternatives! The data/technological revolution is upon us. Doing data science is cheap, the tools are accessible, and there is a lot of raw material. 
 
 +++
 
 @title[Negative impact]
 
 <font color="#008080">Negative: </font> <br>
-Potential for developing a false sense of security
+Potential to develop a false sense of security.
 
 Note:
-One negative consequence of the popularity of data science is that we now have a responsibility to at least try to convey not only the code you need to write to analyze data, but also concepts that are perhaps more abstract but very, very important concepts.
+One negative consequence of the popularity of data science is that we now have a responsibility to at least try to convey not only how to code your way through a data analysis, but also concepts that are perhaps more abstract but very, very important.
 
 Again, who you are shows up. If you are a computer scientist looking for applications of the algorithm that you developed or refined, you could end up applying your algorithm to a problem that on the surface looks like a suitable problem for your algorithm, but in fact may not be. This happens more often than you might expect. 
 
@@ -190,14 +190,17 @@ Perhaps the emphasis on the tools leads to concepts that have to do with the sci
 Note:
 So who are these people? Who are data scientists, and can we study them to help us keep the science in data science?
 
-There is a myriad definitions of data science. This one is my definition. It's biased in that it highlights the interdisciplinarity of data science above all else that goes into it. It also reveals data science to be a heterogeneous collection of multiple fields, depending on the data that you have. Another point that flows from this view is that the disciplinary knowledge is essential. 
-
-I think of the ubiquity of tools as analogous to have all the drills, lumber and nails that you need, and the development of the technical skills as analogous to knowing how to put them together to build a house. In this analogy, the disciplinary knowledge perhaps representes an architect and urban planner who can make sure that the thing you are building makes sense. 
+There is a myriad definitions of data science. This is just one of them.
 
 +++
 
 @title[What is data science?]
 <img src="images/venn_diagrams_data_science/Slide2.jpeg">
+
+Note:
+The various forms of data science each contain a piece of statistics, computer science and a third field that the data belongs to. From this view flows the point that data science is not one field, but rather a heterogeneous collection of lots of these Venn diagrams, as you switch out the x field. 
+
+To tie this back to the point about the tools, I think of the accessibility of the programming tools as analogous to having all fancy miter saws and drills, lumber and fasteners, that your heart could desire. The courses can give you the technical skills as analogous to knowing how to put them together to build a house. In this analogy, the disciplinary knowledge is represented by an architect and an urban planner who can make sure that the thing you are building makes sense. 
 
 +++
 
@@ -206,7 +209,11 @@ I think of the ubiquity of tools as analogous to have all the drills, lumber and
 <img src="images/venn_diagrams_data_science/Slide3.jpeg">
 
 Note:
-My field is statistical genetics, sometimes also called computational genetics. So this view of data science is most definitely biased by my training over lots of years of graduate school and postdocs. This venn diagram reprsents who I am, the specific manifestation of data science is at the intersection of statistics, computer science, and genetics. I'd be curious to hear about how you would describe yourself in this framework, even if you need to switch out statistics and computer science for other disciplines.
+So this is me. My field is statistical genetics, sometimes also called computational genetics. 
+
+This framework is biased in that it highlights the interdisciplinarity of data science above all else that goes into it. It is also perhaps biased in valuing the disciplinary knowledge more than many people do, and perhaps that is a reflection of my past experiences in that first and foremost, I am a biologist. 
+
+I'd be curious to hear about how you would describe yourself in this framework, if you think it fits. 
 
 ---
 
