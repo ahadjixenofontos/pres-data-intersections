@@ -223,7 +223,7 @@ I'd be curious to hear about how you would describe yourself in this framework, 
 
 @title[ONeil view of process]
 
-<img src="images/data_visualization_process.png">
+<img src="images/data_visualization_process.png" height="450">
 <br>
 <span style="font-size:0.4em">O'Neil & Schutt, *Doing Data Science*, 2013</span>
 
