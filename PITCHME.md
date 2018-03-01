@@ -8,6 +8,9 @@ Athena Hadjixenofontos, PhD
 <font size="6">ahadjixenofontos@miami.edu</font>
 <br>
 
+Note:
+Hello, my name is Athena Hadjixenofontos, I'm very happy to be here, representing what we now call data science, thank you for taking time out of your day to listen to us talk.
+
 ---
 
 @title[Gentoo penguins]
@@ -15,22 +18,21 @@ Athena Hadjixenofontos, PhD
 <img src="images/chick_chase.png">
 
 Note:
-Prepare video here, starting at minute 2:00. Okay to have sound on, as long as it starts at minute 2:00. 
+Prepare video here, starting at minute 1:50. Keep sound off.
 http://channel.nationalgeographic.com/wild/videos/chick-chase/
 
-We're about to watch a video of gentoo penguins. The penguin in the front is a parent, and the penguin in the back is the chick. 
+We're about to watch a video of gentoo penguins. A little bit of context, this penguin right here is the parent, and these two are the chicks. 
 
-What do you think they’re doing? Write a phrase or a sentence to describe what they're doing on your notepad
+As we're watching, please think of a phrase or a sentence to describe what they're doing, and if you want write it on your notepad
 
-Who wants to share? 
+Okay, so who described what these penguins are doing as a fed up parent running away from the constant demands of the chicks?
+Who described this as learning through play? Perhaps the parent is teaching the chicks how to get away from a predator?
 
-Those are colored by your experience of the world. YOUR experience
-If you’re a mom and had a rough morning with the kid you may see it as the mom is running away. 
-If you are a student you may see it as the chick playing with its parent and at the same time learning how to get away from predators by mimicking its mom.
+I would suggest, that these interpretations of penguin behavior may be colored by your experience of the world. 
+If you’re a mom and had a rough morning with the kid you may attach the first interpretation to this behavior. 
+If you are a student you may see it differently.
 If you are an evolutionary biologist you may see it as the mom making sure that only the fittest offspring get fed. 
 All you actually see is penguins running.
-
-Anthropomorphism is one example of seeing things not as they are, but as we are. 
 
 ---
 
@@ -43,7 +45,9 @@ we see them as we are.
 <br> <br> <font color="#008080"> - Anais Nin </font>
 
 Note:
-The main point we will explore today is how who you are shows up in the various stages of a data analysis, from design to inference. 
+Anthropomorphism is one example of seeing things not as they are, but as we are. 
+
+In the context of data science, extending inference beyond where it's due, adding meaning that may or may not be warranted, is something that comes up not only when interpreting the results of a project, but as we'll see, in many other places as well. 
 
 +++
 
