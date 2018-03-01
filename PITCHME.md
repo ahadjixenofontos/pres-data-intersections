@@ -234,7 +234,7 @@ This question: are you asking the right question, is a cheeky one, because to an
 
 <font size="6" color="#008080"> DESIGN: Refine the question </font>
 
-In a University with 3,129 faculty members, and 911 additional staff researchers, can we identify pairs or teams to work on collaborative research projects? 
+can we identify pairs or teams to work on collaborative research projects? 
 
 Note:
 So here is what we were interested in answering. There's quite a bit of literature by now that suggests that one of the key components of innovation is interdisciplinarity. That is one of the founding principles of the Center for Computational Science, as an interdisciplinary hub for research. If it is indeed true that there is a relationship between innovation and interdiciplinarity, this sounds like a good question to ask, right? One that many people would like to know the answer to. 
@@ -254,7 +254,7 @@ But what about...
 - etc.
 
 Note:
-There are some things in there that are vague, such as what data can we use to answer this question, and what is an appropriate range of disciplines to consider: should pairings between music researchers and a political scientists be identified, or only more conventional pairings that may be more likely to work out, such as marine scientists and computer scientists? Wait a minute, to answer that question we need some kind of measure of the relationships between disciplines! Not all pairings are going to make sense together, particularly in the absence of a problem to which the disciplines will apply themselves. 
+UM has 3,129 faculty members, and 911 additional staff researchers, so the space of possible pairs is very large. How do we propose to reduce that space into the pairs, or teams that make sense to put togeher? What data can we use to answer this question, and what is an appropriate range of disciplines to consider: should pairings between music researchers and a political scientists be identified, or only more conventional pairings that may be more likely to work out, such as marine scientists and computer scientists? Wait a minute, to answer that question we need some kind of measure of the relationships between disciplines! Not all pairings are going to make sense together, particularly in the absence of a problem to which the disciplines will apply themselves. 
 
 +++
 
