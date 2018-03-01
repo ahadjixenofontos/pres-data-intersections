@@ -40,32 +40,32 @@ All you actually see is penguins running.
 
 <img src="images/spotlight.png" height="300">
 
-We don't see things as they are, <br> 
-we see them as we are. 
+*We don't see things as they are, <br> 
+we see them as we are.* 
 <br> <br> <font color="#008080"> - Anais Nin </font>
 
 Note:
 Anthropomorphism is one example of seeing things not as they are, but as we are. 
 
-In the context of data science, extending inference beyond where it's due, adding meaning that may or may not be warranted, is something that comes up not only when interpreting the results of a project, but as we'll see, in many other places as well. 
+In the context of data science, extending inference beyond where it's due, adding meaning that may or may not be warranted, is something that comes up not only when interpreting the observations, but as we'll see, in many other places as well. 
 
 +++
 
 @title[Empiricists]
 
-... it is impossible for us to **think** <br> of any thing, which we have not antecedently **felt**, either by our external or intenal senses. 
+*... it is impossible for us to **think** <br> of any thing, which we have not antecedently **felt**, either by our external or intenal senses.* 
 <br> <br> <font color="#008080"> - David Hume </font>
 
 Note:
-What we are really asking is "what can I know"? Can I know that the mother is tired of the chick constantly bugging her? Can I know that the mother is trying to determine which chick is hungriest? If we are willing to connect your interpretations of observations to knowledge that you are gathering about how the world works, we need to  acknowledge the philosophers who have laid down the foundation that seeps into our treatment of this subject. 
+It would be an omission to go on without at least acknowledging that "what can I know" is a question asked by many great thinkers. This model of how knowledge is generated, of observations leading to interpretations which generate to knowledge about how the world works, has a long history with many contributors. 
 
-Epistemology is the field of philosophy that asks what I think are some of the most difficult and most fascinating questions. There are a few main schools of thought: the empiricists who insist that the ultimate source of all knowledge is observation. Hume was one of them, claiming that the knowledge cannot be gained based on something innate, but that is forms a posteriori, based on your set of experiences. 
+Epistemology is the field of philosophy that asks some of these most difficult and fascinating questions. There are a few main schools of thought: the empiricists  insist that the ultimate source of all knowledge is observation. Hume was one of them, claiming that the knowledge cannot be gained based on something innate, but that is forms a posteriori, based on your set of experiences. It is impossible for us to think of anything, which we have not antecedently felt, either by our external or internal senses. 
 
 +++
 
 @title[Rationalists]
 
-Vulcanians don't speculate, I speak from pure logic. <br>If I let go of a hammer on a planet that has <br> positive gravity, I need not see it fall <br>to know that it has in fact fallen. <br>
+*Vulcanians don't speculate, <br>I speak from pure logic. <br>If I let go of a hammer on a planet that has <br> positive gravity, I need not see it fall <br>to know that it has in fact fallen.* <br>
 <br> <font color="#008080"> - Mr. Spock </font>
 
 Note:
