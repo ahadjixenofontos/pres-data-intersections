@@ -178,16 +178,16 @@ I think of the ubiquity of tools as analogous to have all the drills, lumber and
 <img src="images/venn_diagrams_data_science/Slide3.jpeg">
 
 Note:
-My field is statistical genetics, sometimes also called computational genetics. So this view of data science is most definitely biased by my training over lots of years of graduate school and postdocs. This venn diagram reprsents who I am, the specific manifestation of data science is at the intersection of statistics, computer science, and genetics. I'd be curious to hear about how you would describe yourself in this framework.
+My field is statistical genetics, sometimes also called computational genetics. So this view of data science is most definitely biased by my training over lots of years of graduate school and postdocs. This venn diagram reprsents who I am, the specific manifestation of data science is at the intersection of statistics, computer science, and genetics. I'd be curious to hear about how you would describe yourself in this framework, even if you need to switch out statistics and computer science for other disciplines.
 
 ---
 
 @title[Stages of data analysis 1]
 
-<img src="images/data-analysis-overview.001.jpeg" height="600">
+<img src="images/venn_diagrams_data_science/Slide4.jpeg" height="600">
 
 Note:
-For the rest of the talk, we will examine the stages of data analysis, and what it really means to proceed through them as a data scientist. Broadly speaking, these are analogous to any other project, so what I'd like to highlight as we go through are the opportunities 
+For the rest of the talk, we will examine the stages of data analysis, and what it really means to proceed through them mindfully and critically. Broadly speaking, these are analogous to any other project, so what I'd like to highlight as we go through are a couple of decision points that are very common, which I'm sure you have some level of experience with even if you wouldn't call what you do data science. 
 
 A big part of keeping the science in data science, is being aware of your biases, your assumptions, the ways in which you've shaped the questions you are asking based on your collection of previous thoughts and experiences, and based on your five human senses and your human reasoning. 
 
@@ -197,13 +197,13 @@ This comes in very early on while you are still designing the way you'd like to 
 
 @title[Stages of data analysis 1]
 
-<img src="images/data-analysis-overview.002.jpeg" height="600">
+<img src="images/venn_diagrams_data_science/Slide5.jpeg" height="600">
 
 +++
 
 @title[Stages of data analysis 1]
 
-<img src="images/data-analysis-overview.003.jpeg" height="600">
+<img src="images/venn_diagrams_data_science/Slide6.jpeg" height="600">
 
 +++
 
@@ -351,9 +351,6 @@ The fact that programming languages are much less ambiguous than natural languag
 Note:
 I am very excited that what we've come to call data science is so popular. I am not alone in thinking that this "trend" won't go away. For that reason, last summer we hosted 18 girls through a partnership with a local non-profit organization called Educate Tomorrow, which works with foster care and similarly disadvantaged youth 
 We created a program for them to at the very least expose students to the various facets of data science early on, and at most, hopefully, inspire them to incorporate a data-mindset in the way they view the world around them, and to incorporate programming in their toolset. 
-
-
-
 
 ---
 
