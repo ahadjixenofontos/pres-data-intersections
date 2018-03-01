@@ -89,7 +89,7 @@ The second take away is that the foundations of data science, as a science, have
 
 @title[Take aways]
 
-###  <font color="#008080">Take aways so far </font>
+###  <font color="#008080">Take away </font>
 
 <br>
 - What are the implications of our philosophical positions for how we carry out data science? 
@@ -218,19 +218,21 @@ I'll use some of my own projects as examples.
 
 @title[Refine the question]
 
-<font color="#008080"> DESIGN PHASE: </font>
+<font color="#008080"> DESIGN: Refine the question </font>
 
-Refine the question 
+
 
 Note:
 One of the major decisions to make in the design phase is defining the question that you'd like to ask, while taking into account the information that is available. 
-I'll use one of the projects that a PhD student from Modern Languages and Literatures, Elena Bonmati, is currently working on. I'll briefly describe our thought process, which may be a little embarassing because I will be exposing what can be perceived of as mistakes in our thought process, but I think illustrative because if we are to benefit from those mistakes the least we could do is learn from them.
+I'll use one of the projects that a PhD student from Modern Languages and Literatures, Elena Bonmati, is currently working on. I'll briefly but explicitly describe our path through these ideas. 
 
 This question: are you asking the right question, is a cheeky one, because to answer it you need to define "right". 
 
 +++
 
 @title[Collaborations]
+
+<font size="6" color="#008080"> DESIGN: Refine the question </font>
 
 In a University with 3,129 faculty members, and 911 additional staff researchers, can we identify pairs or teams to work on collaborative research projects? 
 
@@ -240,6 +242,8 @@ So here is what we were interested in answering. There's quite a bit of literatu
 Please take a minute and come up with as many weaknesses in this question as you can find.
 
 +++
+
+<font size="6" color="#008080"> DESIGN: Refine the question </font>
 
 @title[Caveats]
 
