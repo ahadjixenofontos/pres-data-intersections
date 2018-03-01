@@ -280,7 +280,7 @@ The question is still pretty vague, but it has already transformed, to "What can
 
 @title[Refined question]
 
-
+Refined question
 
 Note:
 Catalyze collaborations was a problem that was stated through my CCS glasses
@@ -330,6 +330,10 @@ Let's also relate this to our previous topic, refining the question. The origina
 
 @title[Controls]
 
+Should you smile in the selfies you post to social media?
+
+
+Note:
 Controls are essential to make sense of your observation
 How tall is tall? 
 Is there really a difference between two groups?
@@ -356,6 +360,8 @@ Or a non-fiction or fiction books which were written throughout a year, if we ha
 
 What are the threats to the validity of your results? 
 
+Note:
+Both selection bias and controls are threats to the validity of your results, if you cling tightly to the general form of the research question that you are looking into, you will be expressing inaccuracies. 
 
 +++
 
@@ -376,7 +382,7 @@ The fact that programming languages are much less ambiguous than natural languag
 
 @title[Variable transformation]
 
-
+Variable transformation 
 
 Note:
 
@@ -390,30 +396,18 @@ Note:
 
 Note:
 
-
----
-
-@title[CCS Data Scholars]
-
-Note:
-I am very excited that what we've come to call data science is so popular. I am not alone in thinking that this "trend" won't go away. For that reason, last summer we hosted 18 girls through a partnership with a local non-profit organization called Educate Tomorrow, which works with foster care and similarly disadvantaged youth 
-We created a program for them to at the very least expose students to the various facets of data science early on, and at most, hopefully, inspire them to incorporate a data-mindset in the way they view the world around them, and to incorporate programming in their toolset. 
-
 +++
 
-@title[Projects across disciplines]
+@title[]
+
+Your social views may impact how you treat key variables. 
 
 Note:
-A key feature of this program is to showcase how data science can be married to almost any other discipline. If you're into literature, as this audience knows all too well, you can open up a whole world of questions that you can ask by picking up the tools. Same if you are into questions that have to do with "where" as represented by spatial data, or images. 
+If you think back to the time before PCA was used to correct for genetic ancestry, 
 
-+++
+Race is a very socially charged topic, for lots of good reasons. Since your views on race can influence how you treat it as a variable in your data analysis, you need to be aware of the connections between your social stance and the results of your study. 
 
-@title[Image project]
-
-In our image processing project, the main question we were asking was whether it's better to smile or not to smile in the selfies that you post to social media. 
-
-
-
+Who you are comes up again.  
 
 ---
 
