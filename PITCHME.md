@@ -184,7 +184,7 @@ My field is statistical genetics, sometimes also called computational genetics. 
 
 @title[Stages of data analysis 1]
 
-<img src="images/venn_diagrams_data_science/Slide4.jpeg" height="600">
+<img src="images/venn_diagrams_data_science/Slide4.jpeg" >
 
 Note:
 For the rest of the talk, we will examine the stages of data analysis, and what it really means to proceed through them mindfully and critically. Broadly speaking, these are analogous to any other project, so what I'd like to highlight as we go through are a couple of decision points that are very common, which I'm sure you have some level of experience with even if you wouldn't call what you do data science. 
@@ -197,25 +197,13 @@ This comes in very early on while you are still designing the way you'd like to 
 
 @title[Stages of data analysis 1]
 
-<img src="images/venn_diagrams_data_science/Slide5.jpeg" height="600">
+<img src="images/venn_diagrams_data_science/Slide5.jpeg" >
 
 +++
 
 @title[Stages of data analysis 1]
 
-<img src="images/venn_diagrams_data_science/Slide6.jpeg" height="600">
-
-+++
-
-@title[Stages of data analysis 1]
-
-<img src="images/data-analysis-overview.004.jpeg" height="600">
-
-+++
-
-@title[Stages of data analysis 1]
-
-<img src="images/data-analysis-overview.005.jpeg" height="600">
+<img src="images/venn_diagrams_data_science/Slide6.jpeg">
 
 ---
 
