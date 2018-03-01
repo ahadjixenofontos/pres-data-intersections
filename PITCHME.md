@@ -1,19 +1,18 @@
-### <font color="#008080"> How to build a data analysis pipeline </font>
+<font size="28" color="#008080"> Mirror, mirror, on the wall, is my experiment valid at all?  </font>
 
 <br>
 Athena Hadjixenofontos, PhD
 <br>
-Director of Engagement
+<font size="14">Director of Engagement</font>
 <br>
-Center for Computational Science
+<font size="14">Center for Computational Science</font>
 <br><br>
-ahadjixenofontos@miami.edu
+<font size="14">ahadjixenofontos@miami.edu</font>
 <br>
 
 ---
 
 @title[Gentoo penguins]
-
 
 <img src="images/chick_chase.png">
 
