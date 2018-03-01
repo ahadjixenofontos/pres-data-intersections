@@ -96,7 +96,7 @@ Perhaps the more storms you have experienced, the more accurate and well calibra
 <br>
 - What are the implications of our philosophical positions for how we carry out data science? 
 <br> <br>
-- There is a rich literature that contextualizes how we do science 
+- There is a rich literature that contextualizes how we do (data) science 
 
 Note:
 Again, whichever philosophy you subscribe to, the important thing is to be aware of how your positions, the results of your collection of experiences, influence your work. 
