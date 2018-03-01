@@ -181,16 +181,14 @@ I think that this emphasis on the tools also ends up giving people a false sense
 
 Perhaps the emphasis on the tools leads to concepts that have to do with the science part of data science remaining in the dark.  
 
----
++++
 
 @title[Learn from the pros]
 
 <img src="images/venn_diagrams_data_science/Slide1.jpeg">
 
 Note:
-So who are these people? Who are data scientists, and can we study them to help us keep the science in data science?
-
-There is a myriad definitions of data science. This is just one of them.
+In synthesizing what we just learned, we could express data science as a Venn diagram that looks something like this. 
 
 +++
 
@@ -217,9 +215,22 @@ I'd be curious to hear about how you would describe yourself in this framework, 
 
 ---
 
+@title[Stages]
+
+<font size="40" color="#008080">The stages of data analysis.</font>
+
++++
+
 @title[ONeil view of process]
 
 <img src="images/data_visualization_process.png">
+<br>
+<span style="font-size:0.4em">O'Neil & Schutt, *Doing Data Science*, 2013</span>
+
+Note:
+This is a figure from a book by Cathy O'Neil and Rachel Schutt, titled Doing Data Science. They posit that there is some kind of reality that we are trying to uncover, through collecting data, processing data, building models and generating data products that feed back into helping us understand reality. 
+
+I think this diagram is missing some things, and operationalizes others to the detriment of defining a clear purpose, so I've both extended and abstracted it to create this next one. 
 
 +++
 
@@ -228,11 +239,14 @@ I'd be curious to hear about how you would describe yourself in this framework, 
 <img src="images/venn_diagrams_data_science/Slide4.jpeg" >
 
 Note:
-This is one way to think about the stages of a data analysis. Broadly speaking, these are analogous to any other project, so I'm hoping that you'll be looking for parallels with your process as we go through the rest of this talk.
+Designing your approach to solving the problem comes first. That includes data collection and a lot more. 
+The parts that Cathy and Rachel called processing, cleaning, and exploring the data, are represented here by getting to know and trust your data, since that is the purpose of those operations. Generate results is analogous to their modeling stage, and the rest falls under contextualizing the inference, since that is important in visualizing the results and making decisions based on the data. 
 
-One thing I'd like to note is that in practice this process is never so clean and linear. It is often the case that once you start getting to know the data you realize that you are missing key information, variables that you don't have data on and which may be key in allowing you to reach meaningful conclusions. Spending a good amount of time in the design phase, and running small pilot studies are two way to try to prevent that from happening. Notice that these actions have little to do with the technicalities of the tools, and more to do with a critical awareness of the strengths and limitations of your design. 
+Of course, in practice this process is never so clean and linear. It is often the case that once you start getting to know the data you realize that you are missing key information, variables that you don't have data on and which may be key in allowing you to reach meaningful conclusions. Spending a good amount of time in the design phase, and running small pilot studies are two way to try to prevent that from happening. 
 
-This middle piece right here, getting to know and trust the data, is also why I am not a fan of ETL engines that automate that process. If that's a topic that you're interested in we can talk more about it later. 
+Notice that these actions have little to do with the technicalities of the tools, and more to do with a critical awareness of the strengths and limitations of your design. 
+
+These stages are analogous to any other project, so I'm interested in hearing about parallels with your processes as we go through the rest of this talk.
 
 +++
 
@@ -241,9 +255,9 @@ This middle piece right here, getting to know and trust the data, is also why I 
 <img src="images/venn_diagrams_data_science/Slide5.jpeg" >
 
 Note:
-There is a lot that goes into each of these broad stages. The details of the bullet points here are not important, but what I'd like to point out is just how much of the effort is spent on the early stages. When we think about data science we often think of it as synonymous with the generating results stage, and you most definitely can jump right in and generate results that don't make sense. There's a lot of literature on lying with statistics, so we won't go into that now. Jumping to the results stage too early is just one way to lie with numbers, whether deliberately or not. 
+There is a lot that goes into each of these broad stages. The details of the bullet points here are not important, but what I'd like to point out is just how much of the effort is spent on the early stages. When we think about data science we often think of it as synonymous with the generating results stage. You can most definitely jump right in and generate results, but they are unlikely to make sense if you don't do justice to the previous two phases. Jumping to the results stage too early is one way to end up lying with statistics, whether deliberately or not. 
 
-Many times graduate students will generate these models, without digging deep inside them. I think this observation holds particularly well for fields like the biological and social sciences. There appears to be a fear of numbers, a mystical mist that we think is where numbers live, and that we can't understand them. That fear is costing us greatly, because you are less likely to touch something that you are afraid of. 
+Many times graduate students will generate these models, without digging deep inside them. I think this observation holds particularly well for fields like the biological and social sciences. There is a fear of math in the culture, a mystical misty land where math lives. This is one case where who you are not is the thing that comes up in you analysis. Thinking of yourself as not a math person can come at great cost, because you are less likely to dive deep into something that you are afraid of. And diving deep is what data science is all about. 
 
 +++
 
@@ -263,8 +277,6 @@ I'll use some of my own projects as examples.
 @title[Refine the question]
 
 <font color="#008080"> DESIGN: Refine the question </font>
-
-
 
 Note:
 One of the major decisions to make in the design phase is defining the question that you'd like to ask, while taking into account the information that is available. 
