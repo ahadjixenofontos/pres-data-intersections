@@ -47,6 +47,8 @@ we see them as we are.*
 Note:
 Anthropomorphism is one example of seeing things not as they are, but as we are. 
 
+I'm defining "who you are" for the purposes of this conversation as the set of experiences, thoughts, interpretations and worldviews that you take with you everywhere you go. 
+
 In the context of data science, extending inference beyond where it's due, adding meaning that may or may not be warranted, is something that comes up not only when interpreting the observations, but as we'll see, in many other places as well. 
 
 +++
@@ -72,7 +74,7 @@ Note:
 The rationalists, on the other camp, if you subscribe to such camp divisions, insist that some knowledge is accessible by intuition alone, and other knowledge can be deduced from intuition, using the rules of logic. 
 
 Spock here expresses an idea that originated with Plato and Pythagoras, that there is an objective reality that can be accessed through logic. 
-The position that you choose to take has implications for your decisions in all stages of data analysis. I am not so much concerned with the truth of who is right, but more concerned with which of these positions serves us best when we work with data. That's the first take away. 
+The position that you choose to take has implications for your decisions in all stages of data analysis. I am not so much concerned with the truth of who is right, but more concerned with which of these positions serves us best when we work with data. 
 
 +++
 
@@ -81,78 +83,84 @@ The position that you choose to take has implications for your decisions in all 
 <img src="images/water-cycle.jpg" height="340">
 
 Note:
-I personally don't view intellectual intuition as something innate, but rather as something that is developed through observation. Scientists, being human beings, cannot escape the biases introduced by the very specific way in which humans perceive the world, process information and reach conclusions. 
+My personal views fit in the empiricism camp more than the rationalist camp. I view intuition and observation as part of the same system. This is a diagram of the water cycle, in which the rain represents knowledge, the vapor represents intuition, and all the drainage systems represent past experiences. I'm not convinced that anyone who is a human being can escape the influence of their past experiences, their limited instrumentation of just five senses, which have shaped their intuition and world view. 
 
-As we saw with the penguins, having a sharpened intuition by repeated contact with a topic, like the evolutionary biologist, may help us get closer to the truth, if such a thing exists. As soon as you switch environments, or perhaps type of data, the intuition needs to be built up again.  
-
-There are lots of layers to the philosophical debate, which I'm not qualified to take apart, so we'll leave this discussion here. 
-
-The second take away is that the foundations of data science, as a science, have a long and rich history in multiple fields, which is often overlooked because the term "data science" itself is so new. 
+Perhaps the more storms you have experienced, the more accurate and well calibrated your system of logic and rational thought will be. In our penguin example, the evolutionary biologist has a perhaps sharper intuition than a student, and perhaps this can get them closer to the truth, if such a thing exists. As soon as you switch environments, or perhaps type of data, the intuition needs to be built up again.  
 
 +++
 
 @title[Take aways]
 
-###  <font color="#008080">Take away </font>
+<font color="#008080">Take away </font>
 
 <br>
 - What are the implications of our philosophical positions for how we carry out data science? 
 <br> <br>
-- The term data science is new, but that may reflect popularity more than it reflects history.  
+- There is a rich literature that contextualizes how we do science 
 
 Note:
-When I say that who you are shows up in the data analysis decisions that you make, I am referring to your collection of experiences, observations, as well as your interpretations of those observations and any meaning you may have attached to them. 
+Again, whichever philosophy you subscribe to, the important thing is to be aware of how your positions, the results of your collection of experiences, influence your work. 
+
+The second main point of this section is to not forget about the work of the great thinkers who have influenced how we do science. The term "data science" may be new but its foundations run deep. 
 
 ---
+
+@title[Term origins]
+
+The term "data scientist" was coined in 2008, by DJ Patil and Jeff Hammerbacher. 
+
+Note:
+So let's go a little deeper into this data science phenomenon. 
+
++++
 
 @title[The dangers of popularity]
 
 <img src="images/sexiest_job.png">
 
 Note:
-The context in which data science operates has changed now that its popularity has sky rocketed. In 2012, Davenport declared data scientist to be the sexiest job of the 21st century, a fact that has some positive and some negative consequences. 
+The hype around data science is has some positive and some negative consequences, if you'll allow me this binary. 
 
 +++
 
 @title[Positive impact]
 
+<font color="#008080">Positive: </font> <br>
 There are currently **130,838** packages on PyPI, <br>the Python Package Index. 
 
 Note:
-One positive consequence is that data is accessible to absolutely anybody, there are lots of open data, lots of online courses for teaching yourself programming and statistics, two of the most basic tools of data analysis. The costs associated with computing have dropped, as the infrastructure gets better. Lots of open source libraries have been developed that implement algorithms that used to be inaccessible. A few years ago, what I thought was clearly the best choice for making publication quality figures was ggplot2, an R package, but now I can no longer say that as a plethora of graphing packages have become available for lots of different environments. This is great! The data/technological revolution is upon us. It's cheap, the tools are accessible, and there is a lot of raw material. 
+One positive consequence is that data is accessible to absolutely anybody, there are lots of open data (whether or not they are of good quality is a different question), there are lots of online courses for teaching yourself programming and statistics, two of the most basic tools of data analysis. The costs associated with computing have dropped, as the infrastructure gets better. Lots of open source libraries have been developed that implement algorithms that used to be inaccessible. A few years ago, what I thought was clearly the best choice for making publication quality figures was ggplot2, an R package, but now I can no longer say that as a plethora of graphing packages have become available for lots of different environments. This is great! The data/technological revolution is upon us. It's cheap, the tools are accessible, and there is a lot of raw material. 
 
 +++
 
 @title[Negative impact]
 
-Which questions can the data answer? 
+<font color="#008080">Negative: </font> <br>
+Potential for developing a false sense of security
 
 Note:
+One negative consequence of the popularity of data science is that we now have a responsibility to at least try to convey not only the code you need to write to analyze data, but also concepts that are perhaps more abstract but very, very important concepts.
 
-Whether or not these data are suitable for answering specific questions depends on the quality, type of data, how extensively it covers variables that are relevant. Those are separate questions. Those are the questions that have to do with the science part of data science. 
+Again, who you are shows up. If you are a computer scientist looking for applications of the algorithm that you developed or refined, you could end up applying your algorithm to a problem that on the surface looks like a suitable problem for your algorithm, but in fact may not be. This happens more often than you might expect. 
 
-Which brings me to the flip side, if you'll allow me this one binary of positives vs negatives. One negative consequence of the popularity of data science is that we now have a responsibility to at least try to convey not only the code you need to write to analyze data, but also concepts that are perhaps more abstract but very, very important concepts.
+In this example, if you are the disciplinary scientist who understands the problem inside and out, you will more clearly see the weaknesses of applying that algorithm to your discipline, but you can only make that judgement if you UNDERSTAND the algorithm. 
+
+This line of thought leads to the proposition that true hybrids may be the only ones who can avoid a false sense of security. True hybrids may be the most likely people to thoughroughly understand the strengths and weaknesses of both the methods and the data. 
 
 +++
 
 @title[Tools vs science]
 
-
 Are we putting too much emphasis on tools? 
 
 Note:
-I would dare suggest the observation that the data science training community has a tendency of placing a lot of emphasis on the tools: "you need to learn python, you need to learn how to use specific libraries such as tensorflow, numpy, nltk, and scikit-learn, you need to learn how to use Tableau, and extract-transform-load engines like Alteryx". I think that this emphasis on the tools ends up giving people, particularly those who haven't had any previous research training, the false sense of security in their data analyses, while key concepts that have to do with the science part of data science remain in the dark.  
+Aside from creating true hybrids, how do we avoid the negative consequences of the skyrocketing popularity of data science? 
 
-+++
+On this, I'd like to suggest that perhaps the data science training community has a tendency of placing a lot of emphasis on the tools: "you need to learn python, you need to learn how to use specific libraries such as tensorflow, numpy, nltk, and scikit-learn, you need to learn how to use Tableau, and extract-transform-load engines like Alteryx". 
 
-@title[The reason for tool emphasis]
+I think that this emphasis on the tools also ends up giving people a false sense of security. Particularly those who are neither the disciplinary scientist nor the computer scientist, but rather people with little previous research training. An emphasis on tools is not even necessarily synonymous with an emphasis on methods, because you can write the code to run a regression analysis without actually understanding how and why it works, what assumptions it relies on and the extent to which making those assumptions is reasonable for your project. 
 
-Science is not only about the tools. 
-
-Note:
-It seems unreal that I even feel the need to make this statement, but after thinking about it for a while I think that emphasis on tools can be justified. Learning how to use a tool is something that you can something you can teach yourself through a MOOC, or through participating in Kaggle competitions. Whereas learning how to problem solve like a scientist, meaning questioning every step that you take and every number that you come up with, is perhaps more difficult to learn online. 
-
-There are also subtler distinctions, data scientists are not software developers and they are not analysts, even though they use similar tools. I won't go into a point by point comparison, but if you're interested we can talk about this later. 
+Perhaps the emphasis on the tools leads to concepts that have to do with the science part of data science remaining in the dark.  
 
 ---
 
