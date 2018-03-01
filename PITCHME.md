@@ -1,4 +1,4 @@
-<font size="28" color="#008080"> Mirror, mirror, on the wall, <br>is my experiment valid at all?  </font>
+<font size="28" color="#008080"> Mirror, mirror, on the wall, <br>is my study valid at all?  </font>
 
 <br>
 Athena Hadjixenofontos, PhD
