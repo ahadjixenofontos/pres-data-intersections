@@ -182,16 +182,16 @@ My field is statistical genetics, sometimes also called computational genetics. 
 
 ---
 
-@title[Stages of data analysis 1]
+@title[Stages of data analysis]
 
 <img src="images/venn_diagrams_data_science/Slide4.jpeg" >
 
 Note:
-For the rest of the talk, we will examine the stages of data analysis, and what it really means to proceed through them mindfully and critically. Broadly speaking, these are analogous to any other project, so what I'd like to highlight as we go through are a couple of decision points that are very common, which I'm sure you have some level of experience with even if you wouldn't call what you do data science. 
+This is one way to think about the stages of a data analysis. Broadly speaking, these are analogous to any other project, so I'm hoping that you'll be looking for parallels with your process as we go through the rest of this talk.
 
-A big part of keeping the science in data science, is being aware of your biases, your assumptions, the ways in which you've shaped the questions you are asking based on your collection of previous thoughts and experiences, and based on your five human senses and your human reasoning. 
+One thing I'd like to note is that in practice this process is never so clean and linear. It is often the case that once you start getting to know the data you realize that you are missing key information, variables that you don't have data on and which may be key in allowing you to reach meaningful conclusions. Spending a good amount of time in the design phase, and running small pilot studies are two way to try to prevent that from happening. Notice that these actions have little to do with the technicalities of the tools, and more to do with a critical awareness of the strengths and limitations of your design. 
 
-This comes in very early on while you are still designing the way you'd like to answer a question. 
+This middle piece right here, getting to know and trust the data, is also why I am not a fan of ETL engines that automate that process. If that's a topic that you're interested in we can talk more about it later. 
 
 +++
 
@@ -199,19 +199,31 @@ This comes in very early on while you are still designing the way you'd like to 
 
 <img src="images/venn_diagrams_data_science/Slide5.jpeg" >
 
+Note:
+There is a lot that goes into each of these broad stages. The details of the bullet points here are not important, but what I'd like to point out is just how much of the effort is spent on the early stages. When we think about data science we often think of it as synonymous with the generating results stage, and you most definitely can jump right in and generate results that don't make sense. There's a lot of literature on lying with statistics, so we won't go into that now. Jumping to the results stage too early is just one way to lie with numbers, whether deliberately or not. 
+
+Many times graduate students will generate these models, without digging deep inside them. I think this observation holds particularly well for fields like the biological and social sciences. There appears to be a fear of numbers, a mystical mist that we think is where numbers live, and that we can't understand them. That fear is costing us greatly, because you are less likely to touch something that you are afraid of. 
+
 +++
 
 @title[Stages of data analysis 1]
 
 <img src="images/venn_diagrams_data_science/Slide6.jpeg">
 
+Note:
+In any case, For the rest of the talk, we will examine a just a couple of the stages of data analysis, and what it really means to proceed through them mindfully and critically.
+
+Please note again that these stages are not linear, there should be all kinds of arrows pointint from most places to most others, all kinds of iterative processes, which I'm omitting for clarity. 
+
+I'll use some of my own projects as examples. 
+
 ---
 
-@title[Problem definition]
+@title[Refine the question]
 
 <font color="#008080"> DESIGN PHASE: </font>
 
-Are you asking the right question?
+Refine the question 
 
 Note:
 One of the major decisions to make in the design phase is defining the question that you'd like to ask, while taking into account the information that is available. 
@@ -221,7 +233,7 @@ This question: are you asking the right question, is a cheeky one, because to an
 
 +++
 
-@title[Catalyzing collaborations]
+@title[Collaborations]
 
 In a University with 3,129 faculty members, and 911 additional staff researchers, can we identify pairs or teams to work on collaborative research projects? 
 
@@ -264,25 +276,30 @@ I find it useful to actually get my hands on some data that may, at a first glan
 
 The question is still pretty vague, but it has already transformed, to "What can we learn about interdisciplinary teams in our organization, based on recent publications?", which is a fundamentally different question than where we started. That's okay, I need to be clear that there's nothing wrong with the question evolving, as long as you are acutely aware of the fact that it has evolved. 
 
-
 +++
 
+@title[Refined question]
+
+
+
+Note:
 Catalyze collaborations was a problem that was stated through my CCS glasses
 Once we saw things through other people’s eyes (faculty who don’t want to be told to collaborate and other admins) the problem was reframed completely and became diffferent than what we originally thought it was
 Now it is "how does the organizational structure of the university reflect the work that is being done in practice" which is a reflection of me feeling like I don't belong in any one discipline 
 This is something about me that is taking flesh as a project
 
----
++++
 
 @title[Abstract to concrete]
 
+Take away:
 Translating the abstract to concrete involves a series of decisions. 
 <br>Those decisions are, to a certain extent, arbitrary. 
 
 Note:
 Once your question has been translated to the concrete, does it still reflect the general idea behind the abstract question? Often times the answer to that is no and you need to be able to evaluate both the probability that the answer to that is no, and how it impacts the inference that you can make.
 
----
++++
 
 Perhaps this is just the way science goes.
 
@@ -292,6 +309,26 @@ Were those initial decisions mistakes? Is it possible to have gotten to the poin
 The question "what can I trust?" makes sense in the context of "there is one correct answer that you should be able to find out through one study", because it assumes that there IS something to trust, which is a very elementary view of how science works. In reality, the "answer" that you get is at best only applicable to a very specific set of circumstances, and varying levels of confidence. Data is messy. Working with it requires being comfortable with not knowing things, which is not a space that is comfortable for many people. Perhaps it's okay that it's messy. 
 
 ---
+
+@title[Identify sources of bias]
+
+Controls and confounders
+Code bugs
+
+Note:
+Bias is a huge subject. Sometimes there are things you can do to mitigate it and sometimes not. For example, if I'd like to identify patients with multiple sclerosis, I might go to a neurodegenerative disease clinic. That makes it really easy for me to grow my sample to a good number, but the patients that I identify that way may be different from a random sample from the population. 
+
+Perhaps their symptoms are more severe, if they needed to be seen by a group of specialists in a specialized clinic rather than doctors at the neurology department of a hospital. I'm also probably over-representing the patients who have access to health insurance, and under-representing those who do not. 
+
+So you see some fundamental statistical concepts, samples and populations, come into play, and are really important for interpreting any results I generate from that study. 
+
+Let's also relate this to our previous topic, refining the question. The original question was "Is there a difference between non-Hispanic white patients and Hispanic patients in the clinical characteristics of multiple sclerosis?" The question I'm actually answering is ""
+
+
+
++++
+
+@title[Controls]
 
 Controls are essential to make sense of your observation
 How tall is tall? 
@@ -313,16 +350,19 @@ Can you find more positive sentiments on good weather days vs bad weather days?
 Compare books by country based on their average days of subshine per year
 Or a non-fiction or fiction books which were written throughout a year, if we have the info on when the authors started writing and make assumptions about how many words they wrote per day
 
----
++++
+
+@title[Threats to the results]
 
 What are the threats to the validity of your results? 
 
 
----
++++
+
+@title[Threats from logical errors]
 
 Beware of bugs in the above code; I have only proved it correct, not tried it.
 <br> <font color="#008080"> -  Donald Knuth </font>
-
 
 Note:
 These are the words of Donald Knuth, author of The art of computer programming, a legendary book from 1968, communicating the difference between math and buggy reality. 
@@ -334,59 +374,44 @@ The fact that programming languages are much less ambiguous than natural languag
 
 ---
 
+@title[Variable transformation]
+
+
+
+Note:
+
++++
+
+@title[PCA of IMSGC study]
+
+<img src="images/ms-pca.jpg" height="550">
+<br>
+<span style="font-size:0.4em">Sawcer et al. 2011, Nature Genetics </span>
+
+Note:
+
+
+---
+
 @title[CCS Data Scholars]
 
 Note:
 I am very excited that what we've come to call data science is so popular. I am not alone in thinking that this "trend" won't go away. For that reason, last summer we hosted 18 girls through a partnership with a local non-profit organization called Educate Tomorrow, which works with foster care and similarly disadvantaged youth 
 We created a program for them to at the very least expose students to the various facets of data science early on, and at most, hopefully, inspire them to incorporate a data-mindset in the way they view the world around them, and to incorporate programming in their toolset. 
 
----
++++
 
 @title[Projects across disciplines]
 
 Note:
 A key feature of this program is to showcase how data science can be married to almost any other discipline. If you're into literature, as this audience knows all too well, you can open up a whole world of questions that you can ask by picking up the tools. Same if you are into questions that have to do with "where" as represented by spatial data, or images. 
 
----
++++
 
 @title[Image project]
 
 In our image processing project, the main question we were asking was whether it's better to smile or not to smile in the selfies that you post to social media. 
 
----
-
-Rorshack test in psychology
-You see what you are
-
-In the expanse episode of the imaginary worlds
-
-
----
-
-Note:
-Maps reflecting the points of view of the people making them
-Exercise in selection
-Omitting and emphasizing certain details
-Your decisions are responsive to your motives for making the map
-
-Cuban exile community’s map highlighting conflicts
-
-Map from the Castro government highlighting assassination of school teachers
-
-Instead of representing reality they are proposing a reality
-
-The agendas of the agents are being played out
-
-Rob
-Kichin
-
-The Data Revolution: Big Data, Open Data, Data Infrastructures and Their Consequences
-
-Assumption of sea faring
-
----
-
-“A lot can depend on little things.” Daniel Messinger on the idea of relying on neural networks to understand and combat the replication crisis in psychology
 
 
 
@@ -394,7 +419,7 @@ Assumption of sea faring
 
 @title[Rabbit hole paths]
 
-
+Rabbit hole image
 
 Note:
 Visualizing the rabbit hole which is actually an ant colony
@@ -403,9 +428,37 @@ You create a route based on who you are rather than what it actually is
 
 Stephanie Yahn credited with idea
 
----
++++
+
+@title[Ant hill paths]
+
+Ant hill cross section image
+
+Note:
 
 
++++
+
+“A lot can depend on little things.” 
+<br>
+<br>
+ - Daniel Messinger 
+
+Note:
+on the idea of relying on neural networks to understand and combat the replication crisis in psychology
+
++++
+
+@title[Rorshack]
+
+Rorshack test in psychology
+
+Note:
+You see what you are
+
+In the expanse episode of the imaginary worlds
+
++++
 
 Datum is latin for given, but when you are working with data, there's nothing that's given
 It's all in the eye of the beholder
