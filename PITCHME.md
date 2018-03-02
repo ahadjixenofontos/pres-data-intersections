@@ -315,15 +315,13 @@ There's quite a bit of literature by now that suggests that one of the key compo
 
 @title[Caveats]
 
-<font color="#008080"> From abstract to concrete: </font> <br><br>
+<font color="#008080"> From abstract to concrete: </font> <br>
 
-<font size="10"> <br>
 - what data can we use?
 - what counts as multidisciplinary?
 - how do we prioritize teams that make sense for a particular problem?
 - can we actually use the results?
-- etc... <br>
-</font>
+- etc... 
 
 Note:
 When you take a question from its abstract form to its concrete form, it almost always ends up changing. 
