@@ -21,6 +21,8 @@ Note:
 Prepare video here, starting at minute 1:50. Keep sound off.
 http://channel.nationalgeographic.com/wild/videos/chick-chase/
 
+I want to start by doing a little thought experiment with you. 
+
 We're about to watch a video of gentoo penguins. A little bit of context, this penguin right here is the parent, and these two are the chicks. 
 
 As we're watching, please think of a phrase or a sentence to describe what they're doing, and if you want write it on your notepad
@@ -66,9 +68,11 @@ In the context of data science, extending inference beyond where it's due, addin
 <br> <br> <font color="#008080"> - David Hume </font>
 
 Note:
-It would be an omission to go on without at least acknowledging that "what can I know" is a question asked by many great thinkers. The model of how knowledge is generated that we just used, of observations leading to interpretations which generate to knowledge about how the world works, has a long history with many contributors. 
+It would be an omission to go on without at least acknowledging that "what can I know" is a question asked by many great thinkers. 
 
-Epistemology is the field of philosophy that asks some of these most difficult and fascinating questions. There are a few main schools of thought: the empiricists  insist that the ultimate source of all knowledge is observation. Hume was one of them, claiming that the knowledge cannot be gained based on something innate, but that is forms a posteriori, based on your set of experiences. It is impossible for us to think of anything, which we have not antecedently felt, either by our external or internal senses. 
+Epistemology is the field of philosophy that asks some of these most difficult and fascinating questions. There are a few main schools of thought: the empiricists insist that the ultimate source of all knowledge is observation. 
+
+Hume was one of them, claiming that the knowledge cannot be gained based on something innate, but that is forms a posteriori, based on your set of experiences. It is impossible for us to think of anything, which we have not antecedently felt, either by our external or internal senses. 
 
 +++
 
@@ -155,7 +159,7 @@ One positive consequence is that data is accessible to absolutely anybody, there
 @title[Negative impact]
 
 <font color="#008080">Negative: </font> <br>
-Potential to develop a false sense of security.
+Potential to develop a false sense of security. Anyone can do it.
 
 Note:
 One negative consequence of the popularity of data science is that we now have a responsibility to at least try to convey not only how to code your way through a data analysis, but also concepts that are perhaps more abstract but very, very important.
@@ -218,6 +222,9 @@ I'd be curious to hear about how you would describe yourself in this framework, 
 @title[Stages]
 
 <font size="40" color="#008080">The stages of data analysis.</font>
+
+Note:
+So that's who data scientist are, but what do they do? What processes do they use? As we go through this it will become clearer why you must have mastery of all three areas in order to do this well. 
 
 +++
 
@@ -370,7 +377,7 @@ The question "what can I trust?" makes sense in the context of "there is one cor
 
 @title[Bias]
 
-<font color="#008080"> Identify sources of bias: </font> 
+<font color="#008080"> Identify sources of bias. </font> 
 
 +++
 
@@ -423,34 +430,12 @@ Or a non-fiction or fiction books which were written throughout a year, if we ha
 
 +++
 
-@title[Threats from logical errors]
+@title[Choices]
 
-Beware of bugs in the above code; I have only proved it correct, not tried it.
-<br> <font color="#008080"> -  Donald Knuth </font>
-
-Note:
-It's also possible to generate misleading results results not only during sampling, or by omitting key controls, but in the implementation of your code. This quote by Donald Knuth, author of The art of computer programming, a legendary book from 1968, communicates the difference between math and buggy reality. 
-
-The fact that programming languages are much less ambiguous than natural languages makes it even more critical that we code with a conscious awareness of the biases that our code could introduce. 
-
-+++
-
-@title[Threats to the results]
-
-<font color="#008080"> Identify sources of bias: </font> <br>
-What are the threats to the validity of your results? 
+Is it possible that you would have chosen a different set of variables as potential confounders based on previous experience?
 
 Note:
-Both selection bias and controls are threats to the validity of your results, if you cling tightly to the general form of the research question that you are looking into, you will be expressing inaccuracies. 
-
-+++
-
-@title
-
-Is it possible that you would have chosen a different set of variables as potential confounders based on your previous experience?
-
-Note:
-Let's leave this idea with this question:
+Let's leave this section with this question:
 Could the selection of variables to treat as confounders have been influenced by your point of view? 
 Would someone else, with a different set of biases have selected a different set instead? 
 
@@ -458,9 +443,10 @@ Would someone else, with a different set of biases have selected a different set
 
 @title[Variable transformation]
 
-Variable transformation 
+<font color="#008080"> Variable transformation. </font>
 
 Note:
+The final stage of data analysis that we will explore is variable transformation. This falls under the getting to know and trust your data stage. 
 
 +++
 
@@ -471,67 +457,42 @@ Note:
 <span style="font-size:0.4em">Sawcer et al. 2011, Nature Genetics </span>
 
 Note:
+When you think about race and ethinicity as a variable, you may think of it as categorical. There are five categories, five boxes on all the forms that everyone fits in neatly. 
 
-+++
+As it turns out, that may not be the best way to deal with those variables in your data analysis, particularly if you have genetic data, where ancestry can generate a very strong signal since people with a more recent common ancestor will be more similar to each other.
 
-@title[]
+In the top panel here, you see all the countries that the patients and healthy controls came from for this study conducted by the international mutltiple sclerosis genetics consrotium. 
 
-Your social views may impact how you treat key variables. 
+The bottom panel is really interesting. Instead of the five boxes, we transformed the variable into a continuous one, with as many "boxes" as there are people in the dataset. Using a dimensionality reduction technique we collapsed about 1M dimensions that represent 1M bases of DNA into a much much smaller space of just 10 dimensions. What you see here is a plot of the first two. 
 
-Note:
-If you think back to the time before PCA was used to correct for genetic ancestry, 
-
-Race is a very socially charged topic, for lots of good reasons. Since your views on race can influence how you treat it as a variable in your data analysis, you need to be aware of the connections between your social stance and the results of your study. 
-
-Who you are comes up again.  
+How you decide to treat this variable in your data analysis has a huge impact. By treating it as a continuous variable you end up controlling for ancestry in a much much better way, because you don't treat people that fall on opposite ends of these clusters but do share the same form box as the same. You have much better resolution. 
 
 ---
 
 @title[Rabbit hole paths]
 
-Rabbit hole image
+<img src="images/rabbit_hole.jpg">
 
 Note:
-Visualizing the rabbit hole which is actually an ant colony
-The route you take through the colony depends on what drew you which is affected by your biases
-You create a route based on who you are rather than what it actually is
-
-Stephanie Yahn credited with idea
+Okay, so to summarize, the key point that I am trying to make is that your decisions have consequences. 
+I was sharing some of these ideas with my wife, who is a neuroscientist, and she said "so instead of seeing data analysis as a rabbit hole, perhaps it's more appropriate to see it as an ant colony?"
 
 +++
 
 @title[Ant hill paths]
 
-Ant hill cross section image
+<img src="images/ant_colony.jpeg">
+<span style="font-size:0.4em"> anthillart.com </span>	
 
 Note:
-
+The route that you choose to take through this colony, the decisions you make at each fork, of whether to go left or right, have an impact on many aspects of data analysis. Perhaps some of these decisions reflect who you are, to an extent, and perhaps you end up revealing some more of yourself than you realize. 
 
 +++
 
-“A lot can depend on little things.” 
-<br>
-<br>
- - Daniel Messinger 
+@title[Datum]
+
+*Datum is latin for given, but when you are working with data, nothing is a given.*
+<font color="#008080">  - Tim Norris </font>
 
 Note:
-on the idea of relying on neural networks to understand and combat the replication crisis in psychology
-
-+++
-
-@title[Rorshack]
-
-Rorshack test in psychology
-
-Note:
-You see what you are
-
-In the expanse episode of the imaginary worlds
-
-+++
-
-Datum is latin for given, but when you are working with data, there's nothing that's given
-It's all in the eye of the beholder
-
-Tim Norris 
-
+A good friend and an all around awesome person who you hopefully get to meet today pointed out to me the other day, that datum is latin for given, but when you work with data, there isn't much that you can take as a given. A lot of it is in the eye of the beholder.
