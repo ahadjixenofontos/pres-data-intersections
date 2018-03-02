@@ -304,7 +304,7 @@ This quote by Henry Ford is one example of biasing the space of possible solutio
 
 <font color="#008080"> The problem: </font>
 
-Identify multidisciplinary pairs or teams of researchers to work on collaborative projects.  
+- Identify multidisciplinary pairs or teams of researchers to work on collaborative projects.  
 
 Note:
 Here is a recent example from my own work. With a PhD student from Modern Languages and Literatures, we embarked on a quest to identify ways in which we can encourage collaborations. 
@@ -315,18 +315,19 @@ There's quite a bit of literature by now that suggests that one of the key compo
 
 @title[Caveats]
 
-<font color="#008080"> From abstract to concrete: </font>
-
+<font color="#008080"> From abstract to concrete: </font> <br>
+<font size="10">
 - what data can we use?
 - what counts as multidisciplinary?
 - how do we prioritize teams that make sense for a particular problem?
-- how do faculty feel about being paired up by external forces?
+- can we actually use the results?
 - etc...
+</font>
 
 Note:
 When you take a question from its abstract form to its concrete form, it almost always ends up changing. 
 
-What data can we use to answer this question? and what is an appropriate range of disciplines to consider: should pairings between music researchers and a political scientists be identified, or only more conventional pairings that may be more likely to work out, such as marine scientists and computer scientists? UM has 3,129 faculty members, and 911 additional staff researchers, so the space of possible pairs and team combinations is extremely large. How do we propose to reduce that space into those that make sense to put togeher? 
+What data can we use to answer this question? and what is an appropriate range of disciplines to consider: should pairings between music researchers and a political scientists be identified, or only more conventional pairings that may be more likely to work out, such as marine scientists and computer scientists? UM has 3,129 faculty members, and 911 additional staff researchers, so the space of possible pairs and team combinations is extremely large. How do we propose to reduce that space into those that make sense to put togeher? Can we actually use the results and suggest teams or pairs, assuming that we can get that far?
 
 TAKEN OUT:
 We decided that we would use text from recent faculty publications that we could access through the programmatic interfaces to various databases, use that text to infer the researcher's areas of expertise with text clustering and topic modeling, then create network diagrams that may help us visualize existing relationships between researchers from different disciplines. 
