@@ -3,9 +3,9 @@
 <br>
 Athena Hadjixenofontos, PhD
 <br>
-<font size="6">Director of Engagement
-Center for Computational Science
-University of Miami
+<font size="6"> <p>Director of Engagement </p>
+<p>Center for Computational Science </p>
+<p>University of Miami</p>	
 ahadjixenofontos@miami.edu </font>
 
 
