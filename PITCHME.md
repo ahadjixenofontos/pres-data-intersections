@@ -362,8 +362,8 @@ We can use the same data - textual data collected via the APIs to various databa
 
 @title[Abstract to concrete]
 
-Translating the abstract to concrete involves a series of decisions. 
-<br>Those decisions are, to a certain extent, arbitrary. 
+Translating the abstract to concrete involves <br> a series of decisions. 
+<br><br>Those decisions are, to a certain extent, arbitrary. 
 
 Note:
 DO NOT USE, move to next slide
