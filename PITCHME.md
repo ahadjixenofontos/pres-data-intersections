@@ -189,7 +189,7 @@ Perhaps the emphasis on the tools leads to concepts that have to do with the sci
 
 @title[Learn from the pros]
 
-<img src="images/venn_diagrams_data_science/Slide1.jpeg">
+<img src="images/venn_diagrams_data_science/venn_diagrams_data_science.001.jpeg">
 
 Note:
 In synthesizing what we just learned, we could express data science as a Venn diagram that looks something like this. 
@@ -197,7 +197,7 @@ In synthesizing what we just learned, we could express data science as a Venn di
 +++
 
 @title[What is data science?]
-<img src="images/venn_diagrams_data_science/Slide2.jpeg">
+<img src="images/venn_diagrams_data_science/venn_diagrams_data_science.002.jpeg">
 
 Note:
 The various forms of data science each contain a piece of statistics, computer science and a third field that the data belongs to. From this view flows the point that data science is not one field, but rather a heterogeneous collection of lots of these Venn diagrams, as you switch out the x field. 
@@ -208,7 +208,7 @@ To tie this back to the point about the tools, I think of the accessibility of t
 
 @title[Who am I?]
 
-<img src="images/venn_diagrams_data_science/Slide3.jpeg">
+<img src="images/venn_diagrams_data_science/venn_diagrams_data_science.003.jpeg">
 
 Note:
 So this is me. My field is statistical genetics, sometimes also called computational genetics. 
@@ -243,7 +243,7 @@ I think this diagram is missing some things, and operationalizes others to the d
 
 @title[Stages of data analysis]
 
-<img src="images/venn_diagrams_data_science/Slide4.jpeg" >
+<img src="images/venn_diagrams_data_science/venn_diagrams_data_science.004.jpeg" >
 
 Note:
 Designing your approach to solving the problem comes first. That includes data collection and a lot more. 
@@ -259,7 +259,7 @@ These stages are analogous to any other project, so I'm interested in hearing ab
 
 @title[Stages of data analysis 1]
 
-<img src="images/venn_diagrams_data_science/Slide5.jpeg" >
+<img src="images/venn_diagrams_data_science/venn_diagrams_data_science.005.jpeg" >
 
 Note:
 There is a lot that goes into each of these broad stages. The details of the bullet points here are not important, so I grayed them out to highlight just how much of the effort is spent on the early stages. When we think about data science we often think of it as synonymous with the generating results stage. 
@@ -272,7 +272,7 @@ Many times graduate students will build models and run algorithms, without diggi
 
 @title[Stages of data analysis 1]
 
-<img src="images/venn_diagrams_data_science/Slide6.jpeg">
+<img src="images/venn_diagrams_data_science/venn_diagrams_data_science.006.jpeg">
 
 Note:
 In any case, for the remainder of our time, we will examine a just a couple of the stages of data analysis, and what it really means to proceed through them mindfully and critically.
