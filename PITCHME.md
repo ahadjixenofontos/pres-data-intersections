@@ -230,7 +230,7 @@ I'd be curious to hear about how you would describe yourself in this framework, 
 Note:
 This is a figure from a book by Cathy O'Neil and Rachel Schutt, titled Doing Data Science. They posit that there is some kind of reality that we are trying to uncover, through collecting data, processing data, building models and generating data products that feed back into helping us understand reality. 
 
-I think this diagram is missing some things, and operationalizes others to the detriment of defining a clear purpose, so I've both extended and abstracted it to create this next one. 
+I think this diagram is missing some things, and operationalizes others to the detriment of defining a clear purpose, so I extended some parts and condenced other parts that share a common purpose to create this next one. 
 
 +++
 
@@ -246,7 +246,7 @@ Of course, in practice this process is never so clean and linear. It is often th
 
 Notice that these actions have little to do with the technicalities of the tools, and more to do with a critical awareness of the strengths and limitations of your design. 
 
-These stages are analogous to any other project, so I'm interested in hearing about parallels with your processes as we go through the rest of this talk.
+These stages are analogous to any other project, so I'm interested in hearing about parallels with your processes when we get a chance later. 
 
 +++
 
@@ -255,9 +255,11 @@ These stages are analogous to any other project, so I'm interested in hearing ab
 <img src="images/venn_diagrams_data_science/Slide5.jpeg" >
 
 Note:
-There is a lot that goes into each of these broad stages. The details of the bullet points here are not important, but what I'd like to point out is just how much of the effort is spent on the early stages. When we think about data science we often think of it as synonymous with the generating results stage. You can most definitely jump right in and generate results, but they are unlikely to make sense if you don't do justice to the previous two phases. Jumping to the results stage too early is one way to end up lying with statistics, whether deliberately or not. 
+There is a lot that goes into each of these broad stages. The details of the bullet points here are not important, so I grayed them out to highlight just how much of the effort is spent on the early stages. When we think about data science we often think of it as synonymous with the generating results stage. 
 
-Many times graduate students will generate these models, without digging deep inside them. I think this observation holds particularly well for fields like the biological and social sciences. There is a fear of math in the culture, a mystical misty land where math lives. This is one case where who you are not is the thing that comes up in you analysis. Thinking of yourself as not a math person can come at great cost, because you are less likely to dive deep into something that you are afraid of. And diving deep is what data science is all about. 
+With open data in particular, you can easily escape thinking about the questions deeply and jump right into generating results, but they are unlikely to make sense if you don't do justice to the previous two phases. Jumping to the results stage too early is one way to end up lying with statistics, whether deliberately or not. 
+
+Many times graduate students will build models and run algorithms, without digging deep inside them. I think this observation holds particularly true for fields like the biological and social sciences. There is a fear of math in the culture, a mystical misty land where math lives. We can think of this as a case where who you are NOT is the thing that comes up in you analysis. Thinking of yourself as not a math person can come at great cost, because you are less likely to dive deep into something that you are afraid of. And diving deep is what data science is all about. In my view, it's not even a choice. 
 
 +++
 
@@ -266,7 +268,7 @@ Many times graduate students will generate these models, without digging deep in
 <img src="images/venn_diagrams_data_science/Slide6.jpeg">
 
 Note:
-In any case, For the rest of the talk, we will examine a just a couple of the stages of data analysis, and what it really means to proceed through them mindfully and critically.
+In any case, for the remainder of our time, we will examine a just a couple of the stages of data analysis, and what it really means to proceed through them mindfully and critically.
 
 Please note again that these stages are not linear, there should be all kinds of arrows pointint from most places to most others, all kinds of iterative processes, which I'm omitting for clarity. 
 
@@ -276,74 +278,78 @@ I'll use some of my own projects as examples.
 
 @title[Refine the question]
 
-<font color="#008080"> DESIGN: Refine the question </font>
+<font color="#008080"> The refinement of the question. </font>
 
 Note:
-One of the major decisions to make in the design phase is defining the question that you'd like to ask, while taking into account the information that is available. 
-I'll use one of the projects that a PhD student from Modern Languages and Literatures, Elena Bonmati, is currently working on. I'll briefly but explicitly describe our path through these ideas. 
+Defining the question that you'd like to ask is not as straightforward as it sounds. 
 
-This question: are you asking the right question, is a cheeky one, because to answer it you need to define "right". 
+You need to take into account all kinds of factors to assess whether you are asking a good question:
+is the information available or will you end up forcing yourself to over extend inference? 
+is it even possible to know the answer to the big great question that you want to ask?
+are you boxing yourself into a biased space with your phrasing? 
+
++++
+
+@title[Faster horse]
+
+*If I asked my customers what they wanted, they would have said a faster horse.* 
+<br> <br> <font color="#008080"> - Henry Ford </font>
+
+Note:
+This quote by Henry Ford is one example of biasing the space of possible solutions with your phrasing. Thinking about the problem in terms of how to transport people faster opens up a lot more possible solutions than thinking about making your current mode of transportation faster. 
 
 +++
 
 @title[Collaborations]
 
-<font size="6" color="#008080"> DESIGN: Refine the question </font>
+<font size="6" color="#008080"> The problem: </font>
 
-can we identify pairs or teams to work on collaborative research projects? 
+Identify multidisciplinary pairs or teams of researchers to work on collaborative projects.  
 
 Note:
-So here is what we were interested in answering. There's quite a bit of literature by now that suggests that one of the key components of innovation is interdisciplinarity. That is one of the founding principles of the Center for Computational Science, as an interdisciplinary hub for research. If it is indeed true that there is a relationship between innovation and interdiciplinarity, this sounds like a good question to ask, right? One that many people would like to know the answer to. 
+Here is a recent example from my own work. With a PhD student from Modern Languages and Literatures, we embarked on a quest to identify ways in which we can encourage collaborations. 
 
-Please take a minute and come up with as many weaknesses in this question as you can find.
+There's quite a bit of literature by now that suggests that one of the key components of innovation is multidisciplinarity. If it is indeed true then this sounds like a good question to ask, right? 
 
 +++
-
-<font size="6" color="#008080"> DESIGN: Refine the question </font>
 
 @title[Caveats]
 
-But what about...
-- available data
-- distance between disciplines
-- relevance of pairing to an actual problem 
-- etc.
+<font size="6" color="#008080"> From abstract to concrete: </font>
+
+- what data can we use?
+- what counts as multidisciplinary?
+- how do we prioritize teams that make sense for a particular problem?
+- how do faculty feel about being paired up by external forces?
+- etc...
 
 Note:
-UM has 3,129 faculty members, and 911 additional staff researchers, so the space of possible pairs is very large. How do we propose to reduce that space into the pairs, or teams that make sense to put togeher? What data can we use to answer this question, and what is an appropriate range of disciplines to consider: should pairings between music researchers and a political scientists be identified, or only more conventional pairings that may be more likely to work out, such as marine scientists and computer scientists? Wait a minute, to answer that question we need some kind of measure of the relationships between disciplines! Not all pairings are going to make sense together, particularly in the absence of a problem to which the disciplines will apply themselves. 
+When you take a question from its abstract form to its concrete form, it almost always ends up changing. 
 
-+++
+What data can we use to answer this question? and what is an appropriate range of disciplines to consider: should pairings between music researchers and a political scientists be identified, or only more conventional pairings that may be more likely to work out, such as marine scientists and computer scientists? UM has 3,129 faculty members, and 911 additional staff researchers, so the space of possible pairs and team combinations is extremely large. How do we propose to reduce that space into those that make sense to put togeher? 
 
-@title[Project flowchart]
-
-text of recent faculty publications
-<br>
-|
-v
-<br>
-areas of expertise in tools and domains
-<br>
-|
-v 
-<br>
-relationships between disciplines
-
-Note:
-I find it useful to actually get my hands on some data that may, at a first glance, be suitable for answering this question. I know that I am incredibly lucky to be able to do this at no real cost, thank you data revolution. In this case, we decided that we would use text from recent faculty publications that we could access through the programmatic interfaces to various databases, use that text to infer the researcher's areas of expertise with text clustering and topic modeling, then create network diagrams that may help us visualize existing relationships between researchers from different disciplines. 
-
-The question is still pretty vague, but it has already transformed, to "What can we learn about interdisciplinary teams in our organization, based on recent publications?", which is a fundamentally different question than where we started. That's okay, I need to be clear that there's nothing wrong with the question evolving, as long as you are acutely aware of the fact that it has evolved. 
+TAKEN OUT:
+We decided that we would use text from recent faculty publications that we could access through the programmatic interfaces to various databases, use that text to infer the researcher's areas of expertise with text clustering and topic modeling, then create network diagrams that may help us visualize existing relationships between researchers from different disciplines. 
 
 +++
 
 @title[Refined question]
 
-Refined question
+<font size="6" color="#008080"> The new problem: </font> 
+
+How well does the organizational structure of the university reflect current research? |
 
 Note:
-Catalyze collaborations was a problem that was stated through my CCS glasses
-Once we saw things through other people’s eyes (faculty who don’t want to be told to collaborate and other admins) the problem was reframed completely and became diffferent than what we originally thought it was
-Now it is "how does the organizational structure of the university reflect the work that is being done in practice" which is a reflection of me feeling like I don't belong in any one discipline 
-This is something about me that is taking flesh as a project
+The answer to that last one was particularly important, because - who would have imagined - suggesting collaborations doesn't work very well. Researchers know their domains much deeper than we ever could, and they have their own ideas of who it makes sense to collaborate with, which pairings can contribute to their work in a meaningful way. 
+
+Catalyze collaborations was a problem that was stated through my administrative glasses. Who I am showed up in the very early stages of this project. Fortunately in this case it didn't take much to reframe the question from the point of view of the researchers, in a way that also generated suggestions for what the administration can do in order to facilitate collaborations. 
+
+So we asked this question instead:
+How well does the organizational structure of the university, reflect research that is being done currently? 
+
+The organizational structure, split in the schools and colleges, and further split into the departments is one we've inherited. Could it be that it no longer serves the needs of the current research enterprise the way that it used to, back in a time where research had clear disciplinary borders? 
+
+We can use the same data - textual data collected via the APIs to various databases, and even similar models and algorithms as we originally planned, but our objective is very different, as is our assessment of the extent to which we have met that objective. 
 
 +++
 
