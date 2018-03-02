@@ -5,11 +5,12 @@ Athena Hadjixenofontos, PhD
 <br>
 <font size="6">Director of Engagement</font>
 <font size="6">Center for Computational Science</font>
+<font size="6">University of Miami</font>
 <font size="6">ahadjixenofontos@miami.edu</font>
 <br>
 
 Note:
-Hello, my name is Athena Hadjixenofontos, I'm very happy to be here, representing what we now call data science, thank you for taking time out of your day to listen to us talk.
+Hello, my name is Athena Hadjixenofontos, I'm very happy to be here. I am trained in human genomics, and I am currently the director of engagement at the center for computational science. CCS is the unit of the university that provides research support in a number of ways, one of them is by providing the supercomputing infrastructure used by researchers across Schools and Colleges. 
 
 ---
 
@@ -119,6 +120,9 @@ The second main point of this section is to not forget about the work of the gre
 @title[The hype]
 
 <font size="40" color="#008080">The hype.</font>
+
+Note: 
+So what is data science and how did it come to be?
 
 +++
 
@@ -379,6 +383,9 @@ The question "what can I trust?" makes sense in the context of "there is one cor
 
 <font color="#008080"> Identify sources of bias. </font> 
 
+Note: 
+The second piece of the process that we will examine has to do with just a few of the ways in which bias can creep in to your project. 
+
 +++
 
 @title[Identify sources of bias]
@@ -388,7 +395,7 @@ The question "what can I trust?" makes sense in the context of "there is one cor
 systematic deviation from expectation attributable to the sampling process
 
 Note:
-Bias is a huge subject. Sometimes there are things you can do to mitigate it and sometimes not. For example, if I'd like to identify patients with multiple sclerosis, I might go to a neurodegenerative disease clinic. That makes it really easy for me to grow my sample to a good number, but the patients that I identify that way may be different from a random sample from the population. 
+Bias is a huge subject, and there are lots of different types. Sometimes there are things you can do to mitigate it and sometimes not. For example, if I'd like to identify patients with multiple sclerosis, I might go to a neurodegenerative disease clinic. That makes it really easy for me to grow my sample to a good number, but the patients that I identify that way may be different from a random sample from the population. 
 
 Perhaps their symptoms are more severe, if they needed to be seen by a group of specialists in a specialized clinic rather than doctors at the neurology department of a hospital. I'm also probably over-representing the patients who have access to health insurance, and under-representing those who do not. 
 
@@ -420,7 +427,9 @@ Other than facial expression, what could lead to more likes? <br>
 - visibility in feeds |
 
 Note:
-Other than facial expression, what could lead to more likes? Take a minute and note down some for yourself. 
+Other than facial expression, what could lead to more likes? If we don't measure these variables, and they turn out to have been important in some sense, our study could end up at best inconclusive, or at worst, misleading. 
+
+Take a minute and note down some for yourself. 
 These are the ones we came up with. 
 
 ANOTHER EXAMPLE:
