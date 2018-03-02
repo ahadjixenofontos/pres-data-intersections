@@ -3,11 +3,11 @@
 <br>
 Athena Hadjixenofontos, PhD
 <br>
-<font size="6">Director of Engagement</font>
-<font size="6">Center for Computational Science</font>
-<font size="6">University of Miami</font>
-<font size="6">ahadjixenofontos@miami.edu</font>
-<br>
+<font size="6">Director of Engagement
+Center for Computational Science
+University of Miami
+ahadjixenofontos@miami.edu </font>
+
 
 Note:
 Hello, my name is Athena Hadjixenofontos, I'm very happy to be here. I am trained in human genomics, and I am currently the director of engagement at the center for computational science. CCS is the unit of the university that provides research support in a number of ways, one of them is by providing the supercomputing infrastructure used by researchers across Schools and Colleges. 
