@@ -302,7 +302,7 @@ This quote by Henry Ford is one example of biasing the space of possible solutio
 
 @title[Collaborations]
 
-<font size="6" color="#008080"> The problem: </font>
+<font color="#008080"> The problem: </font>
 
 Identify multidisciplinary pairs or teams of researchers to work on collaborative projects.  
 
@@ -315,7 +315,7 @@ There's quite a bit of literature by now that suggests that one of the key compo
 
 @title[Caveats]
 
-<font size="6" color="#008080"> From abstract to concrete: </font>
+<font color="#008080"> From abstract to concrete: </font>
 
 - what data can we use?
 - what counts as multidisciplinary?
@@ -335,9 +335,9 @@ We decided that we would use text from recent faculty publications that we could
 
 @title[Refined question]
 
-<font size="6" color="#008080"> The new problem: </font> 
+<font color="#008080"> The new problem: </font> 
 
-How well does the organizational structure of the university reflect current research? |
+- How well does the organizational structure of the university reflect current research? |
 
 Note:
 The answer to that last one was particularly important, because - who would have imagined - suggesting collaborations doesn't work very well. Researchers know their domains much deeper than we ever could, and they have their own ideas of who it makes sense to collaborate with, which pairings can contribute to their work in a meaningful way. 
