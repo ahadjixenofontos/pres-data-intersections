@@ -317,7 +317,7 @@ There's quite a bit of literature by now that suggests that one of the key compo
 
 <font color="#008080"> From abstract to concrete: </font> <br>
 
-- what data can we use?
+- data sources?
 - what counts as multidisciplinary?
 - how do we prioritize teams that make sense for a particular problem?
 - can we actually use the results?
@@ -355,76 +355,71 @@ We can use the same data - textual data collected via the APIs to various databa
 
 @title[Abstract to concrete]
 
-Take away:
 Translating the abstract to concrete involves a series of decisions. 
 <br>Those decisions are, to a certain extent, arbitrary. 
 
 Note:
-Once your question has been translated to the concrete, does it still reflect the general idea behind the abstract question? Often times the answer to that is no and you need to be able to evaluate both the probability that the answer to that is no, and how it impacts the inference that you can make.
-
-+++
-
+DO NOT USE, move to next slide
 Perhaps this is just the way science goes.
 
-Note:
 Were those initial decisions mistakes? Is it possible to have gotten to the point we got to without having gone through the process that got us here? I don't know. This is a larger question that touches on the idea that science is "self-correcting", because this process of refinement doesn't only happen within a study, but between studies. After all, where we break up a project into a publishable piece is also an arbitrary decision. This idea that science is self-correcting invokes commentary on the public perception that scientific studies produce contradictory results, so how do you know what to trust? One study shows that a compound is carcinogenic, the next study shows that it's harmless - as a consumer, what do you believe? Diet studies are notorious, but this phenomenon is not exclusive to them. 
 
 The question "what can I trust?" makes sense in the context of "there is one correct answer that you should be able to find out through one study", because it assumes that there IS something to trust, which is a very elementary view of how science works. In reality, the "answer" that you get is at best only applicable to a very specific set of circumstances, and varying levels of confidence. Data is messy. Working with it requires being comfortable with not knowing things, which is not a space that is comfortable for many people. Perhaps it's okay that it's messy. 
 
 ---
 
+@title[Bias]
+
+<font color="#008080"> Identify sources of bias: </font> 
+
++++
+
 @title[Identify sources of bias]
 
-Controls and confounders
-Code bugs
+<font color="#008080"> Ascertainment bias: </font>
+<br>
+systematic deviation from expectation attributable to the sampling process
 
 Note:
 Bias is a huge subject. Sometimes there are things you can do to mitigate it and sometimes not. For example, if I'd like to identify patients with multiple sclerosis, I might go to a neurodegenerative disease clinic. That makes it really easy for me to grow my sample to a good number, but the patients that I identify that way may be different from a random sample from the population. 
 
 Perhaps their symptoms are more severe, if they needed to be seen by a group of specialists in a specialized clinic rather than doctors at the neurology department of a hospital. I'm also probably over-representing the patients who have access to health insurance, and under-representing those who do not. 
 
-So you see some fundamental statistical concepts, samples and populations, come into play, and are really important for interpreting any results I generate from that study. 
-
-Let's also relate this to our previous topic, refining the question. The original question was "Is there a difference between non-Hispanic white patients and Hispanic patients in the clinical characteristics of multiple sclerosis?" The question I'm actually answering is ""
-
-
+So you see some fundamental statistical concepts, samples and populations, come into play, and are really important for interpreting any results I generate from that study.
 
 +++
 
 @title[Controls]
 
-Should you smile in the selfies you post to social media?
-
+<font color="#008080"> Controlling for confounders: </font>	<br>
+- Should you smile in the selfies you post to social media? |
 
 Note:
-Controls are essential to make sense of your observation
-How tall is tall? 
-Is there really a difference between two groups?
-All else needs to be held constant. 
-The things that you think of, the variables you choose to collect data on 
-may depend on your point of view. 
-Someone else, with a different set of biases may select a different set instead. 
+Experimental scientists are very familiar with the idea of controls, there's a common joke that if you are at a seminar and don't know what question to ask, just ask about whether they've considered additional controls. It's not a very funny one. 
 
-For ML approaches you may be tempted to say 
-"well, this doesn't apply, because it's the algorithm that chooses relevant features, not a human"
-Howeevr, the human still determines what is available for the algorithm to learn from, which is how we are ending up with racist AI
+Controls are essential to make sense of your observation, because they provide a reference. If you are testing a drug and you want to see if it promotes differentiation of a progenitor cell into its mature counterpart, you need to know how much differentiation takes place without the drug, if all else is held constant. Only then do you have something meaningful to compare your results to. 
 
-We have all heard of the example of google gorrilla
-We are making the AI in our image
-
-On controls
-Can you find more positive sentiments on good weather days vs bad weather days? 
-Compare books by country based on their average days of subshine per year
-Or a non-fiction or fiction books which were written throughout a year, if we have the info on when the authors started writing and make assumptions about how many words they wrote per day
+My team created a mini data project for high school students in one of our summer programs. The question that we were interested in was "do you get more likes if you smile in your insta selfies than if you don't?". Should you smile? How do you know? Very pressing question. 
 
 +++
 
-@title[Threats to the results]
+@title[Confounders]
 
-What are the threats to the validity of your results? 
+Other than facial expression, what could lead to more likes? <br>
+
+- popularity of person |
+- features other than the smile |
+- timing of post |
+- visibility in feeds |
 
 Note:
-Both selection bias and controls are threats to the validity of your results, if you cling tightly to the general form of the research question that you are looking into, you will be expressing inaccuracies. 
+Other than facial expression, what could lead to more likes? Take a minute and note down some for yourself. 
+These are the ones we came up with. 
+
+ANOTHER EXAMPLE:
+Can you find more positive sentiments on good weather days vs bad weather days? 
+Compare books by country based on their average days of subshine per year
+Or a non-fiction or fiction books which were written throughout a year, if we have the info on when the authors started writing and make assumptions about how many words they wrote per day
 
 +++
 
@@ -434,12 +429,30 @@ Beware of bugs in the above code; I have only proved it correct, not tried it.
 <br> <font color="#008080"> -  Donald Knuth </font>
 
 Note:
-These are the words of Donald Knuth, author of The art of computer programming, a legendary book from 1968, communicating the difference between math and buggy reality. 
-
-What gets lost when you abstract away the messy, physical world? You need to be aware. 
+It's also possible to generate misleading results results not only during sampling, or by omitting key controls, but in the implementation of your code. This quote by Donald Knuth, author of The art of computer programming, a legendary book from 1968, communicates the difference between math and buggy reality. 
 
 The fact that programming languages are much less ambiguous than natural languages makes it even more critical that we code with a conscious awareness of the biases that our code could introduce. 
 
++++
+
+@title[Threats to the results]
+
+<font color="#008080"> Identify sources of bias: </font> <br>
+What are the threats to the validity of your results? 
+
+Note:
+Both selection bias and controls are threats to the validity of your results, if you cling tightly to the general form of the research question that you are looking into, you will be expressing inaccuracies. 
+
++++
+
+@title
+
+Is it possible that you would have chosen a different set of variables as potential confounders based on your previous experience?
+
+Note:
+Let's leave this idea with this question:
+Could the selection of variables to treat as confounders have been influenced by your point of view? 
+Would someone else, with a different set of biases have selected a different set instead? 
 
 ---
 
