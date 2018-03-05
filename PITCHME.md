@@ -12,6 +12,9 @@ ahadjixenofontos@miami.edu </font>
 Note:
 Hello, my name is Athena Hadjixenofontos, I'm very happy to be here. I am trained in human genomics, and I am currently the director of engagement at the center for computational science. CCS is the unit of the university that provides research support in a number of ways, one of them is by providing the supercomputing infrastructure used by researchers across Schools and Colleges. 
 
+When I say study, it includes any data science project, in the broadest possible definition. 
+Monica gave us the industry perspective, and I think that you'll be able to see my academic perspective in how I'll be talking about disciplines instaed of industries - but again, for the purposes of this conversation, both terms could oftentimes be applicable. 
+
 ---
 
 @title[Gentoo penguins]
